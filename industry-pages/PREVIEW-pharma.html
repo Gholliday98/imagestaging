@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PREVIEW — Pharmaceuticals &amp; Research | Plastic-Craft Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Alice&display=swap" rel="stylesheet">
+  <style>
+/* ============================================================
+   Plastic-Craft Industries — Global Stylesheet
+   Brand Kit Colors & Typography
+   ============================================================ */
+
+/* --- CSS Custom Properties (Brand Tokens) --- */
+:root {
+  /* Primary Palette */
+  --color-primary:          #1380da;
+  --color-primary-light:    #64b7f0;
+  --color-primary-pale:     #d0e9fd;
+  --color-primary-bright:   #2e8eff;
+  --color-accent-blue:      #031aec;
+  --color-accent-indigo:    #0b108b;
+
+  /* Dark / Navy */
+  --color-navy:             #07276e;
+  --color-navy-deep:        #03325e;
+
+  /* Neutrals */
+  --color-white:            #ffffff;
+  --color-gray:             #666666;
+  --color-gray-blue:        #83b1d1;
+  --color-gray-light:       #d4e1ed;
+
+  /* Typography Families */
+  --font-title:      'Montserrat', 'Arial Black', sans-serif;
+  --font-subtitle:   'Playfair Display', Georgia, serif;
+  --font-heading:    'Playfair Display', Georgia, serif;
+  --font-subheading: 'Garamond', 'Times New Roman', serif;
+  --font-section:    'Alice', 'Playfair Display', Georgia, serif;
+  --font-body:       'Times New Roman', Times, serif;
+  --font-quote:      'Copperplate', serif;
+  --font-caption:    'Times New Roman', Times, serif;
+
+  /* Spacing Scale */
+  --space-xs:  0.5rem;
+  --space-sm:  1rem;
+  --space-md:  1.5rem;
+  --space-lg:  2.5rem;
+  --space-xl:  4rem;
+  --space-2xl: 6rem;
+
+  /* Layout */
+  --max-width:    1200px;
+  --border-radius: 6px;
+
+  /* Shadows */
+  --shadow-sm:  0 1px 3px rgba(3, 50, 94, 0.08);
+  --shadow-md:  0 4px 12px rgba(3, 50, 94, 0.12);
+  --shadow-lg:  0 8px 30px rgba(3, 50, 94, 0.16);
+}
+
+/* --- Reset & Base --- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-navy-deep);
+  background-color: var(--color-white);
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: var(--color-accent-blue);
+}
+
+/* --- Utility --- */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+/* ============================================================
+   HEADER / NAVIGATION
+   ============================================================ */
+.site-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: var(--space-sm) 0;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__logo {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  color: var(--color-white);
+  letter-spacing: 0.5px;
+}
+
+.site-header__logo span {
+  color: var(--color-primary-light);
+}
+
+.site-header__nav {
+  display: flex;
+  list-style: none;
+  gap: var(--space-lg);
+}
+
+.site-header__nav a {
+  font-family: var(--font-section);
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.85);
+  transition: color 0.25s ease;
+  letter-spacing: 0.3px;
+}
+
+.site-header__nav a:hover,
+.site-header__nav a.active {
+  color: var(--color-white);
+}
+
+/* Mobile nav toggle */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--space-xs);
+}
+
+.nav-toggle span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background: var(--color-white);
+  margin: 5px 0;
+  transition: 0.3s;
+  border-radius: 2px;
+}
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+.hero {
+  position: relative;
+  background: linear-gradient(160deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, #0d4a8a 100%);
+  color: var(--color-white);
+  padding: 8rem 0 5rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 100%, rgba(19,128,218,0.12) 0%, transparent 55%),
+    radial-gradient(ellipse at 70% 0%, rgba(100,183,240,0.08) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(30deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%),
+    linear-gradient(150deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%);
+  background-size: 80px 140px;
+  pointer-events: none;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__label {
+  display: inline-block;
+  font-family: var(--font-quote);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-primary-light);
+  margin-bottom: var(--space-sm);
+}
+
+.hero__title {
+  font-family: var(--font-title);
+  font-size: clamp(2.4rem, 6vw, 4rem);
+  line-height: 1.1;
+  margin-bottom: var(--space-sm);
+  letter-spacing: 1px;
+}
+
+.hero__divider {
+  width: 80px;
+  height: 3px;
+  background: var(--color-primary-light);
+  margin: var(--space-md) auto;
+  border: none;
+  border-radius: 2px;
+}
+
+.hero__subtitle {
+  font-family: var(--font-subtitle);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--color-gray-light);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+   INTRO TEXT SECTION
+   ============================================================ */
+.intro {
+  padding: var(--space-xl) 0;
+  background: var(--color-white);
+  text-align: center;
+}
+
+.intro__content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro__content p {
+  font-family: var(--font-body);
+  font-size: 1.08rem;
+  color: var(--color-gray);
+  line-height: 1.85;
+  margin-bottom: var(--space-md);
+}
+
+.intro__content p:last-child {
+  margin-bottom: 0;
+}
+
+/* ============================================================
+   APPLICATIONS SECTION
+   ============================================================ */
+.applications {
+  padding: var(--space-2xl) 0 var(--space-xl);
+  background: linear-gradient(170deg, var(--color-primary-pale) 0%, #e8f3fc 40%, var(--color-white) 100%);
+}
+
+.applications__layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.applications__image {
+  position: relative;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.applications__image img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+
+.applications__image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(3,50,94,0.05) 0%, rgba(3,50,94,0.25) 100%);
+  pointer-events: none;
+}
+
+.applications__body h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  color: var(--color-navy-deep);
+  margin-bottom: var(--space-md);
+}
+
+/* Tabs */
+.applications__tabs {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.applications__tab {
+  font-family: var(--font-section);
+  font-size: 0.88rem;
+  padding: 0.5em 1.2em;
+  border: 2px solid var(--color-gray-light);
+  border-radius: var(--border-radius);
+  background: var(--color-white);
+  color: var(--color-gray);
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.applications__tab:hover {
+  border-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.applications__tab.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+/* Panels */
+.applications__panel {
+  display: none;
+}
+
+.applications__panel.active {
+  display: block;
+  animation: fadeIn 0.35s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.applications__list {
+  list-style: none;
+}
+
+.applications__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75em;
+  padding: 0.55em 0;
+  border-bottom: 1px solid rgba(3,50,94,0.06);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--color-navy-deep);
+  line-height: 1.5;
+}
+
+.applications__list li:last-child {
+  border-bottom: none;
+}
+
+.applications__list li::before {
+  content: '';
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  margin-top: 0.5em;
+}
+
+/* ============================================================
+   MATERIALS SECTION
+   ============================================================ */
+.materials {
+  padding: 0;
+  background: var(--color-white);
+}
+
+.materials__banner {
+  background: linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, var(--color-primary) 100%);
+  padding: var(--space-lg) 0;
+  text-align: center;
+}
+
+.materials__banner h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--color-white);
+  margin-bottom: 0.2em;
+}
+
+.materials__banner p {
+  font-family: var(--font-subheading);
+  font-size: 1rem;
+  color: var(--color-gray-blue);
+}
+
+.materials__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-xl) var(--space-md);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.material-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-family: var(--font-section);
+  font-size: 0.92rem;
+  color: var(--color-navy-deep);
+  background: var(--color-primary-pale);
+  border: 1px solid rgba(19,128,218,0.15);
+  padding: 0.6em 1.4em;
+  border-radius: 50px;
+  transition: all 0.25s ease;
+  cursor: default;
+}
+
+.material-tag:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================================
+   ADVANTAGES SECTION
+   ============================================================ */
+.advantages {
+  padding: var(--space-2xl) 0;
+  background: var(--color-gray-light);
+}
+
+.advantages__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.advantages__header h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  color: var(--color-navy-deep);
+  margin-bottom: var(--space-xs);
+}
+
+.advantages__header p {
+  font-family: var(--font-subheading);
+  font-size: 1.05rem;
+  color: var(--color-gray);
+}
+
+/* Carousel wrapper */
+.advantages__carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.advantages__track {
+  display: flex;
+  gap: var(--space-md);
+  transition: transform 0.45s ease;
+}
+
+.advantage-card {
+  flex: 0 0 calc(33.333% - var(--space-md) * 2 / 3);
+  background: var(--color-white);
+  border-radius: var(--border-radius);
+  padding: var(--space-lg) var(--space-md);
+  box-shadow: var(--shadow-sm);
+  border-top: 4px solid var(--color-primary);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.advantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.advantage-card__icon {
+  width: 50px;
+  height: 50px;
+  background: var(--color-primary-pale);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-sm);
+}
+
+.advantage-card__icon svg {
+  width: 24px;
+  height: 24px;
+  stroke: var(--color-primary);
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.advantage-card h3 {
+  font-family: var(--font-section);
+  font-size: 1.02rem;
+  color: var(--color-navy-deep);
+  margin-bottom: 0.4em;
+  line-height: 1.35;
+}
+
+.advantage-card p {
+  font-family: var(--font-body);
+  font-size: 0.93rem;
+  color: var(--color-gray);
+  line-height: 1.65;
+}
+
+/* Carousel dots */
+.advantages__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: var(--space-lg);
+}
+
+.advantages__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-gray-blue);
+  border: none;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.2s ease;
+  padding: 0;
+}
+
+.advantages__dot.active {
+  background: var(--color-primary);
+  transform: scale(1.25);
+}
+
+.advantages__dot:hover {
+  background: var(--color-primary-light);
+}
+
+/* Carousel arrows */
+.advantages__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--color-gray-blue);
+  background: var(--color-white);
+  color: var(--color-navy-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transition: all 0.25s ease;
+  font-size: 1.1rem;
+}
+
+.advantages__arrow:hover {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.advantages__arrow--prev { left: -12px; }
+.advantages__arrow--next { right: -12px; }
+
+/* ============================================================
+   CTA / CONTACT SECTION
+   ============================================================ */
+.cta-section {
+  padding: var(--space-2xl) 0;
+  background: var(--color-primary-pale);
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--color-navy-deep);
+  margin-bottom: var(--space-xs);
+}
+
+.cta-section p {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--color-gray);
+  max-width: 620px;
+  margin: 0 auto var(--space-lg);
+  line-height: 1.7;
+}
+
+.cta-section__actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: var(--font-section);
+  font-size: 1rem;
+  padding: 0.85em 2.2em;
+  border-radius: var(--border-radius);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-color: var(--color-primary);
+}
+
+.btn--primary:hover {
+  background: var(--color-primary-bright);
+  border-color: var(--color-primary-bright);
+  color: var(--color-white);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--color-navy-deep);
+  border-color: var(--color-navy-deep);
+}
+
+.btn--outline:hover {
+  background: var(--color-navy-deep);
+  color: var(--color-white);
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.site-footer {
+  background: var(--color-navy-deep);
+  color: var(--color-gray-blue);
+  padding: var(--space-xl) 0 var(--space-md);
+}
+
+.site-footer__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.site-footer__brand {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  color: var(--color-white);
+  margin-bottom: var(--space-sm);
+}
+
+.site-footer__brand span { color: var(--color-primary-light); }
+
+.site-footer__desc {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--color-gray-blue);
+}
+
+.site-footer h4 {
+  font-family: var(--font-section);
+  font-size: 0.95rem;
+  color: var(--color-white);
+  margin-bottom: var(--space-sm);
+}
+
+.site-footer ul { list-style: none; }
+.site-footer ul li { margin-bottom: 0.5em; }
+
+.site-footer ul a {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-gray-blue);
+  transition: color 0.25s ease;
+}
+
+.site-footer ul a:hover { color: var(--color-primary-light); }
+
+.site-footer__bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: var(--space-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.site-footer__copyright {
+  font-family: var(--font-caption);
+  font-size: 0.85rem;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1024px) {
+  .applications__layout { grid-template-columns: 1fr; gap: var(--space-lg); }
+  .applications__image img { height: 350px; }
+  .advantage-card { flex: 0 0 calc(50% - var(--space-md) / 2); }
+  .site-footer__grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  .hero { padding: 6rem 0 3.5rem; }
+  .site-header__nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-navy-deep); flex-direction: column; padding: var(--space-sm) var(--space-md); box-shadow: var(--shadow-md); gap: var(--space-sm); }
+  .site-header__nav.open { display: flex; }
+  .nav-toggle { display: block; }
+  .advantage-card { flex: 0 0 100%; }
+  .advantages__arrow { display: none; }
+  .site-footer__grid { grid-template-columns: 1fr; }
+  .site-footer__bottom { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding: 5rem 0 2.5rem; }
+  .hero__title { font-size: 1.8rem; }
+  .applications__tabs { flex-direction: column; }
+  .applications__tab { width: 100%; text-align: center; }
+  .cta-section__actions { flex-direction: column; align-items: center; }
+  .btn { width: 100%; justify-content: center; }
+}
+  </style>
+</head>
+<body>
+
+  <!-- ====== HEADER / NAV ====== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="site-header__logo">PLASTIC<span>-CRAFT</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul class="site-header__nav" id="mainNav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="active">Industries</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== HERO BANNER ====== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__label">Industry Solutions</p>
+        <h1 class="hero__title">Pharmaceuticals &amp; Research</h1>
+        <hr class="hero__divider">
+        <p class="hero__subtitle">Supplying Laboratory, Research &amp; Pharmaceutical Equipment</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== INTRO TEXT ====== -->
+  <section class="intro">
+    <div class="container">
+      <div class="intro__content">
+        <p>Plastic-Craft supplies high-performance plastics for laboratory, research, pharmaceutical, biotech, and life sciences environments. In settings where even the smallest contamination can compromise an experiment or production run, the right plastic ensures safe, long-lasting, and chemically inert performance.</p>
+        <p>Our specialist team identifies the right materials for your application and fabricates custom solutions engineered to exact specifications. All welding, forming, tooling, and assembly is performed at our facility &mdash; delivering reliable materials, fast turnaround, and consistent quality whether your focus is pharmaceutical production, clinical research, medical device innovation, or industrial laboratory operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== APPLICATIONS ====== -->
+  <section class="applications" id="applications">
+    <div class="container">
+      <div class="applications__layout">
+        <div class="applications__image">
+          <!-- PLACEHOLDER: Replace src with your own image -->
+          <img src="" alt="Pharmaceutical and research plastics" loading="lazy" style="background:#d0e9fd;min-height:480px;">
+        </div>
+        <div class="applications__body">
+          <h2>Our Applications</h2>
+          <div class="applications__tabs" role="tablist">
+            <button class="applications__tab active" role="tab" aria-selected="true" aria-controls="panel-lab" id="tab-lab">Laboratory &amp; Research</button>
+            <button class="applications__tab" role="tab" aria-selected="false" aria-controls="panel-pharma" id="tab-pharma">Pharmaceutical &amp; Medical</button>
+            <button class="applications__tab" role="tab" aria-selected="false" aria-controls="panel-industrial" id="tab-industrial">Industrial &amp; Chemical</button>
+          </div>
+
+          <div class="applications__panel active" role="tabpanel" id="panel-lab" aria-labelledby="tab-lab">
+            <ul class="applications__list">
+              <li>Laboratory equipment, instruments, and diagnostic trays</li>
+              <li>Lab countertops and processing areas</li>
+              <li>Fume hoods and ducting</li>
+              <li>Research-grade safety barriers, shields, and trays</li>
+              <li>Cleanroom-compatible containers and equipment</li>
+              <li>HPLC tubing and valve components</li>
+              <li>Fluid handling tubing, manifolds, and fittings</li>
+            </ul>
+          </div>
+
+          <div class="applications__panel" role="tabpanel" id="panel-pharma" aria-labelledby="tab-pharma">
+            <ul class="applications__list">
+              <li>Pill and tablet production equipment</li>
+              <li>Blister packaging, strip packs, pouches, and sample packs</li>
+              <li>Pre-fillable syringes, IV infusion devices, inhalers, and insulin pens</li>
+              <li>Medication tubes, droppers, vials, ampules, and single-dose bottles</li>
+              <li>Tamper-evident and childproof closures</li>
+              <li>Measuring spoons, caps, and dosing systems</li>
+              <li>Renal care and bio-pharm facilities</li>
+            </ul>
+          </div>
+
+          <div class="applications__panel" role="tabpanel" id="panel-industrial" aria-labelledby="tab-industrial">
+            <ul class="applications__list">
+              <li>Municipal water and wastewater piping</li>
+              <li>Drain-waste-vent systems</li>
+              <li>Chemical containers for storage or retention</li>
+              <li>Plating tanks, barrels, and parts</li>
+              <li>Tanks, tanker linings, and wall linings</li>
+              <li>Pump and valve components, gaskets, seals, and spacers</li>
+              <li>High-purity semiconductor industry</li>
+              <li>Pulp and paper bleaching</li>
+              <li>Mining and metals preparation</li>
+              <li>Underground transport and fuel holding</li>
+              <li>Food and beverage processing and piping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== MATERIALS ====== -->
+  <section class="materials" id="materials">
+    <div class="materials__banner">
+      <div class="container">
+        <h2>Our Materials</h2>
+        <p>High-performance plastics for every pharmaceutical and research application</p>
+      </div>
+    </div>
+    <div class="materials__grid">
+      <span class="material-tag">Acrylic (PMMA)</span>
+      <span class="material-tag">ABS</span>
+      <span class="material-tag">HDPE</span>
+      <span class="material-tag">Nylon (PA)</span>
+      <span class="material-tag">PEEK</span>
+      <span class="material-tag">PEI</span>
+      <span class="material-tag">PES</span>
+      <span class="material-tag">PETG</span>
+      <span class="material-tag">Polyethylene (PE)</span>
+      <span class="material-tag">Polycarbonate (PC)</span>
+      <span class="material-tag">Polypropylene (PP)</span>
+      <span class="material-tag">Polystyrene (PS)</span>
+      <span class="material-tag">PTFE</span>
+      <span class="material-tag">PVC</span>
+      <span class="material-tag">UHMW-PE</span>
+    </div>
+  </section>
+
+  <!-- ====== ADVANTAGES ====== -->
+  <section class="advantages" id="advantages">
+    <div class="container">
+      <div class="advantages__header">
+        <h2>Advantages of Using Plastic-Craft</h2>
+        <p>Engineered plastics that outperform in demanding environments</p>
+      </div>
+      <div class="advantages__carousel">
+        <button class="advantages__arrow advantages__arrow--prev" aria-label="Previous slide">&larr;</button>
+        <button class="advantages__arrow advantages__arrow--next" aria-label="Next slide">&rarr;</button>
+        <div class="advantages__track" id="advantagesTrack">
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z"/></svg>
+            </div>
+            <h3>Regulatory Compliance</h3>
+            <p>Meets FDA, USP, ISO, NSF, and 3A Dairy standards with antimicrobial and biocompatible options available.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Chemical Stability</h3>
+            <p>Chemical stability, corrosion resistance, and compatibility with sterilization, radiation, and CIP/SIP processes.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3>Lightweight Construction</h3>
+            <p>Lightweight construction for high-speed production using smaller drive motors.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Lubrication-Free</h3>
+            <p>Lubrication-free design to reduce maintenance and contamination risk.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <h3>Transparent Grades</h3>
+            <p>Transparent grades available for easy viewing during operations.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/><path d="M12 2L2 7l10 5 10-5L12 2z"/></svg>
+            </div>
+            <h3>Dimensional Precision</h3>
+            <p>Dimensional precision and machinability for custom-engineered components.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Long Wear Life</h3>
+            <p>Long wear life with limited wear on mating machine parts.</p>
+          </div>
+          <div class="advantage-card">
+            <div class="advantage-card__icon">
+              <svg viewBox="0 0 24 24"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3>Cost-Effective &amp; Durable</h3>
+            <p>Cost-effective, durable, and safe for all pharmaceutical and research environments.</p>
+          </div>
+        </div>
+      </div>
+      <div class="advantages__dots" id="advantagesDots"></div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to Get Started?</h2>
+      <p>Our specialist team is ready to identify the right materials for your application and fabricate custom solutions engineered to your exact specifications.</p>
+      <div class="cta-section__actions">
+        <a href="#" class="btn btn--primary">Request a Quote</a>
+        <a href="#" class="btn btn--outline">Contact Our Team</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <div class="site-footer__brand">PLASTIC<span>-CRAFT</span></div>
+          <p class="site-footer__desc">High-performance plastics for laboratory, research, pharmaceutical, biotech, and life sciences environments. Precision fabricated at our facility with fast turnaround and consistent quality.</p>
+        </div>
+        <div>
+          <h4>Industries</h4>
+          <ul>
+            <li><a href="#">Pharmaceuticals &amp; Research</a></li>
+            <li><a href="#">Food &amp; Beverage</a></li>
+            <li><a href="#">Boats, Docks &amp; Marinas</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Capabilities</a></li>
+            <li><a href="#">Quality</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Request a Quote</a></li>
+            <li><a href="#">Find a Location</a></li>
+            <li><a href="#">Technical Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p class="site-footer__copyright">&copy; 2026 Plastic-Craft Products. All rights reserved.</p>
+        <div><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+(function () {
+  'use strict';
+  var tabs = document.querySelectorAll('.applications__tab');
+  var panels = document.querySelectorAll('.applications__panel');
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      tabs.forEach(function (t) { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      panels.forEach(function (p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      var target = document.getElementById(tab.getAttribute('aria-controls'));
+      if (target) target.classList.add('active');
+    });
+  });
+  var track = document.getElementById('advantagesTrack');
+  var dotsContainer = document.getElementById('advantagesDots');
+  var prevBtn = document.querySelector('.advantages__arrow--prev');
+  var nextBtn = document.querySelector('.advantages__arrow--next');
+  if (track && dotsContainer) {
+    var cards = track.querySelectorAll('.advantage-card');
+    var totalCards = cards.length;
+    var currentPage = 0;
+    function getVisibleCount() { if (window.innerWidth <= 768) return 1; if (window.innerWidth <= 1024) return 2; return 3; }
+    function getTotalPages() { return Math.ceil(totalCards / getVisibleCount()); }
+    function buildDots() {
+      dotsContainer.innerHTML = '';
+      for (var i = 0; i < getTotalPages(); i++) {
+        var dot = document.createElement('button');
+        dot.className = 'advantages__dot' + (i === currentPage ? ' active' : '');
+        dot.dataset.page = i;
+        dot.addEventListener('click', function () { goToPage(parseInt(this.dataset.page, 10)); });
+        dotsContainer.appendChild(dot);
+      }
+    }
+    function goToPage(page) {
+      var pages = getTotalPages();
+      if (page < 0) page = pages - 1;
+      if (page >= pages) page = 0;
+      currentPage = page;
+      var visible = getVisibleCount();
+      var cardWidth = cards[0].offsetWidth;
+      var gap = parseInt(getComputedStyle(track).gap, 10) || 24;
+      track.style.transform = 'translateX(-' + (currentPage * visible * (cardWidth + gap)) + 'px)';
+      dotsContainer.querySelectorAll('.advantages__dot').forEach(function (d, i) { d.classList.toggle('active', i === currentPage); });
+    }
+    if (prevBtn) prevBtn.addEventListener('click', function () { goToPage(currentPage - 1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { goToPage(currentPage + 1); });
+    buildDots();
+    goToPage(0);
+    var resizeTimer;
+    window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(function () { buildDots(); goToPage(0); }, 200); });
+  }
+  var navToggle = document.querySelector('.nav-toggle');
+  var mainNav = document.getElementById('mainNav');
+  if (navToggle && mainNav) { navToggle.addEventListener('click', function () { var isOpen = mainNav.classList.toggle('open'); navToggle.setAttribute('aria-expanded', isOpen); }); }
+})();
+  </script>
+</body>
+</html>
