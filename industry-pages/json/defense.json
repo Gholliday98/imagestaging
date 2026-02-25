@@ -1,4 +1,10 @@
 {
+  "version": "0.4",
+  "title": "Defense",
+  "type": "page",
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
   "content": [
     {
       "id": "7e1e38b",
@@ -303,11 +309,5 @@
       ],
       "isInner": false
     }
-  ],
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
-  "version": "0.4",
-  "title": "Defense",
-  "type": "page"
+  ]
 }

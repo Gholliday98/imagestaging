@@ -1,4 +1,10 @@
 {
+  "version": "0.4",
+  "title": "Agriculture",
+  "type": "page",
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
   "content": [
     {
       "id": "bce4e52",
@@ -303,11 +309,5 @@
       ],
       "isInner": false
     }
-  ],
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
-  "version": "0.4",
-  "title": "Agriculture",
-  "type": "page"
+  ]
 }
