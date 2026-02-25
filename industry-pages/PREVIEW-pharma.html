@@ -107,203 +107,92 @@ a:hover {
 }
 
 /* ============================================================
-   HEADER / NAVIGATION
-   ============================================================ */
-.site-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  padding: var(--space-sm) 0;
-}
-
-.site-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.site-header__logo {
-  font-family: var(--font-title);
-  font-size: 1.4rem;
-  color: var(--color-white);
-  letter-spacing: 0.5px;
-}
-
-.site-header__logo span {
-  color: var(--color-primary-light);
-}
-
-.site-header__nav {
-  display: flex;
-  list-style: none;
-  gap: var(--space-lg);
-}
-
-.site-header__nav a {
-  font-family: var(--font-section);
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.85);
-  transition: color 0.25s ease;
-  letter-spacing: 0.3px;
-}
-
-.site-header__nav a:hover,
-.site-header__nav a.active {
-  color: var(--color-white);
-}
-
-/* Mobile nav toggle */
-.nav-toggle {
-  display: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: var(--space-xs);
-}
-
-.nav-toggle span {
-  display: block;
-  width: 26px;
-  height: 2px;
-  background: var(--color-white);
-  margin: 5px 0;
-  transition: 0.3s;
-  border-radius: 2px;
-}
-
-/* ============================================================
-   HERO SECTION
+   HERO SECTION — Full-bleed background image with left-aligned title
    ============================================================ */
 .hero {
   position: relative;
-  background: linear-gradient(160deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, #0d4a8a 100%);
-  color: var(--color-white);
-  padding: 8rem 0 5rem;
-  text-align: center;
+  min-height: 420px;
+  display: flex;
+  align-items: flex-end;
   overflow: hidden;
+  /* PLACEHOLDER: Replace with the landing page image for pharma */
+  background-color: var(--color-navy-deep);
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse at 30% 100%, rgba(19,128,218,0.12) 0%, transparent 55%),
-    radial-gradient(ellipse at 70% 0%, rgba(100,183,240,0.08) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(30deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%),
-    linear-gradient(150deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%);
-  background-size: 80px 140px;
+  background: linear-gradient(
+    to top,
+    rgba(3, 50, 94, 0.82) 0%,
+    rgba(3, 50, 94, 0.45) 40%,
+    rgba(3, 50, 94, 0.20) 100%
+  );
   pointer-events: none;
 }
 
 .hero__content {
   position: relative;
   z-index: 1;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-md) var(--space-lg);
+  text-align: left;
 }
 
 .hero__label {
   display: inline-block;
   font-family: var(--font-quote);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--color-primary-light);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
 }
 
 .hero__title {
   font-family: var(--font-title);
-  font-size: clamp(2.4rem, 6vw, 4rem);
-  line-height: 1.1;
-  margin-bottom: var(--space-sm);
-  letter-spacing: 1px;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.15;
+  color: var(--color-white);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.4em;
 }
 
 .hero__divider {
-  width: 80px;
+  width: 60px;
   height: 3px;
   background: var(--color-primary-light);
-  margin: var(--space-md) auto;
+  margin: 0;
   border: none;
   border-radius: 2px;
 }
 
-.hero__subtitle {
-  font-family: var(--font-subtitle);
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  font-weight: 400;
-  font-style: italic;
-  line-height: 1.6;
-  color: var(--color-gray-light);
-  max-width: 650px;
-  margin: 0 auto;
-}
-
 /* ============================================================
-   HERO IMAGE SECTION  (placeholder image banner, compact)
-   ============================================================ */
-.hero-image {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.hero-image img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  display: block;
-}
-
-.hero-image__overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(3,50,94,0.55) 0%, rgba(3,50,94,0.15) 100%);
-  display: flex;
-  align-items: flex-end;
-  padding: var(--space-lg) var(--space-md);
-}
-
-.hero-image__title {
-  font-family: var(--font-title);
-  font-size: clamp(1.6rem, 4vw, 2.6rem);
-  color: var(--color-white);
-  letter-spacing: 1px;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  width: 100%;
-}
-
-/* ============================================================
-   INTRO TEXT SECTION
+   INTRO TEXT SECTION — tighter, single-spaced paragraphs
    ============================================================ */
 .intro {
-  padding: var(--space-xl) 0;
+  padding: var(--space-xl) 0 var(--space-lg);
   background: var(--color-white);
-  text-align: center;
 }
 
 .intro__content {
-  max-width: 900px;
+  max-width: 860px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .intro__content p {
   font-family: var(--font-body);
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   color: var(--color-gray);
-  line-height: 1.85;
-  margin-bottom: var(--space-md);
+  line-height: 1.45;
+  margin-bottom: 0.35em;
 }
 
 .intro__content p:last-child {
@@ -314,8 +203,8 @@ a:hover {
    APPLICATIONS SECTION
    ============================================================ */
 .applications {
-  padding: var(--space-2xl) 0 var(--space-xl);
-  background: linear-gradient(170deg, var(--color-primary-pale) 0%, #e8f3fc 40%, var(--color-white) 100%);
+  padding: var(--space-xl) 0;
+  background: linear-gradient(175deg, #f4f9fe 0%, #eaf3fb 50%, var(--color-white) 100%);
 }
 
 .applications__layout {
@@ -327,7 +216,7 @@ a:hover {
 
 .applications__image {
   position: relative;
-  border-radius: var(--border-radius);
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
@@ -342,15 +231,28 @@ a:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(3,50,94,0.05) 0%, rgba(3,50,94,0.25) 100%);
+  background: linear-gradient(180deg, rgba(3,50,94,0.03) 0%, rgba(3,50,94,0.18) 100%);
   pointer-events: none;
 }
 
 .applications__body h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
   color: var(--color-navy-deep);
   margin-bottom: var(--space-md);
+  position: relative;
+  padding-bottom: 0.5em;
+}
+
+.applications__body h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 2px;
 }
 
 /* Tabs */
@@ -363,10 +265,10 @@ a:hover {
 
 .applications__tab {
   font-family: var(--font-section);
-  font-size: 0.88rem;
-  padding: 0.5em 1.2em;
-  border: 2px solid var(--color-gray-light);
-  border-radius: var(--border-radius);
+  font-size: 0.85rem;
+  padding: 0.45em 1.1em;
+  border: 1.5px solid var(--color-gray-light);
+  border-radius: 20px;
   background: var(--color-white);
   color: var(--color-gray);
   cursor: pointer;
@@ -407,12 +309,12 @@ a:hover {
   display: flex;
   align-items: flex-start;
   gap: 0.75em;
-  padding: 0.55em 0;
-  border-bottom: 1px solid rgba(3,50,94,0.06);
+  padding: 0.5em 0;
+  border-bottom: 1px solid rgba(3,50,94,0.05);
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 0.97rem;
   color: var(--color-navy-deep);
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .applications__list li:last-child {
@@ -422,11 +324,11 @@ a:hover {
 .applications__list li::before {
   content: '';
   flex-shrink: 0;
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   background: var(--color-primary);
   border-radius: 50%;
-  margin-top: 0.5em;
+  margin-top: 0.45em;
 }
 
 /* ============================================================
@@ -439,20 +341,20 @@ a:hover {
 
 .materials__banner {
   background: linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, var(--color-primary) 100%);
-  padding: var(--space-lg) 0;
+  padding: var(--space-md) 0;
   text-align: center;
 }
 
 .materials__banner h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
   color: var(--color-white);
-  margin-bottom: 0.2em;
+  margin-bottom: 0.15em;
 }
 
 .materials__banner p {
   font-family: var(--font-subheading);
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--color-gray-blue);
 }
 
@@ -460,8 +362,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--space-sm);
-  padding: var(--space-xl) var(--space-md);
+  gap: 0.65rem;
+  padding: var(--space-lg) var(--space-md);
   max-width: var(--max-width);
   margin: 0 auto;
 }
@@ -471,11 +373,11 @@ a:hover {
   align-items: center;
   gap: 0.4em;
   font-family: var(--font-section);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   color: var(--color-navy-deep);
   background: var(--color-primary-pale);
-  border: 1px solid rgba(19,128,218,0.15);
-  padding: 0.6em 1.4em;
+  border: 1px solid rgba(19,128,218,0.12);
+  padding: 0.5em 1.2em;
   border-radius: 50px;
   transition: all 0.25s ease;
   cursor: default;
@@ -493,25 +395,25 @@ a:hover {
    ADVANTAGES SECTION
    ============================================================ */
 .advantages {
-  padding: var(--space-2xl) 0;
-  background: var(--color-gray-light);
+  padding: var(--space-xl) 0 var(--space-2xl);
+  background: linear-gradient(180deg, #f0f5fa 0%, #e8eff6 100%);
 }
 
 .advantages__header {
   text-align: center;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .advantages__header h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
   color: var(--color-navy-deep);
   margin-bottom: var(--space-xs);
 }
 
 .advantages__header p {
   font-family: var(--font-subheading);
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--color-gray);
 }
 
@@ -530,10 +432,10 @@ a:hover {
 .advantage-card {
   flex: 0 0 calc(33.333% - var(--space-md) * 2 / 3);
   background: var(--color-white);
-  border-radius: var(--border-radius);
+  border-radius: 10px;
   padding: var(--space-lg) var(--space-md);
   box-shadow: var(--shadow-sm);
-  border-top: 4px solid var(--color-primary);
+  border-left: 4px solid var(--color-primary);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
@@ -543,10 +445,10 @@ a:hover {
 }
 
 .advantage-card__icon {
-  width: 50px;
-  height: 50px;
+  width: 46px;
+  height: 46px;
   background: var(--color-primary-pale);
-  border-radius: 50%;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -554,8 +456,8 @@ a:hover {
 }
 
 .advantage-card__icon svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   stroke: var(--color-primary);
   fill: none;
   stroke-width: 2;
@@ -565,17 +467,17 @@ a:hover {
 
 .advantage-card h3 {
   font-family: var(--font-section);
-  font-size: 1.02rem;
+  font-size: 0.98rem;
   color: var(--color-navy-deep);
-  margin-bottom: 0.4em;
-  line-height: 1.35;
+  margin-bottom: 0.35em;
+  line-height: 1.3;
 }
 
 .advantage-card p {
   font-family: var(--font-body);
-  font-size: 0.93rem;
+  font-size: 0.9rem;
   color: var(--color-gray);
-  line-height: 1.65;
+  line-height: 1.55;
 }
 
 /* Carousel dots */
@@ -611,10 +513,10 @@ a:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  border: 2px solid var(--color-gray-blue);
+  border: 1.5px solid var(--color-gray-blue);
   background: var(--color-white);
   color: var(--color-navy-deep);
   display: flex;
@@ -623,7 +525,7 @@ a:hover {
   cursor: pointer;
   z-index: 2;
   transition: all 0.25s ease;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .advantages__arrow:hover {
@@ -639,25 +541,25 @@ a:hover {
    CTA / CONTACT SECTION
    ============================================================ */
 .cta-section {
-  padding: var(--space-2xl) 0;
-  background: var(--color-primary-pale);
+  padding: var(--space-xl) 0;
+  background: linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, #0d4a8a 100%);
   text-align: center;
 }
 
 .cta-section h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.4rem, 3vw, 2rem);
-  color: var(--color-navy-deep);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  color: var(--color-white);
   margin-bottom: var(--space-xs);
 }
 
 .cta-section p {
   font-family: var(--font-body);
-  font-size: 1.05rem;
-  color: var(--color-gray);
-  max-width: 620px;
+  font-size: 1rem;
+  color: var(--color-gray-blue);
+  max-width: 580px;
   margin: 0 auto var(--space-lg);
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 .cta-section__actions {
@@ -672,8 +574,8 @@ a:hover {
   align-items: center;
   gap: 0.5em;
   font-family: var(--font-section);
-  font-size: 1rem;
-  padding: 0.85em 2.2em;
+  font-size: 0.95rem;
+  padding: 0.75em 2em;
   border-radius: var(--border-radius);
   border: 2px solid transparent;
   cursor: pointer;
@@ -695,79 +597,14 @@ a:hover {
 
 .btn--outline {
   background: transparent;
-  color: var(--color-navy-deep);
-  border-color: var(--color-navy-deep);
+  color: var(--color-white);
+  border-color: rgba(255,255,255,0.5);
 }
 
 .btn--outline:hover {
-  background: var(--color-navy-deep);
-  color: var(--color-white);
-}
-
-/* ============================================================
-   FOOTER
-   ============================================================ */
-.site-footer {
-  background: var(--color-navy-deep);
-  color: var(--color-gray-blue);
-  padding: var(--space-xl) 0 var(--space-md);
-}
-
-.site-footer__grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: var(--space-lg);
-  margin-bottom: var(--space-lg);
-}
-
-.site-footer__brand {
-  font-family: var(--font-title);
-  font-size: 1.3rem;
-  color: var(--color-white);
-  margin-bottom: var(--space-sm);
-}
-
-.site-footer__brand span { color: var(--color-primary-light); }
-
-.site-footer__desc {
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  line-height: 1.7;
-  color: var(--color-gray-blue);
-}
-
-.site-footer h4 {
-  font-family: var(--font-section);
-  font-size: 0.95rem;
-  color: var(--color-white);
-  margin-bottom: var(--space-sm);
-}
-
-.site-footer ul { list-style: none; }
-.site-footer ul li { margin-bottom: 0.5em; }
-
-.site-footer ul a {
-  font-family: var(--font-body);
-  font-size: 0.9rem;
-  color: var(--color-gray-blue);
-  transition: color 0.25s ease;
-}
-
-.site-footer ul a:hover { color: var(--color-primary-light); }
-
-.site-footer__bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding-top: var(--space-md);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-}
-
-.site-footer__copyright {
-  font-family: var(--font-caption);
-  font-size: 0.85rem;
+  background: var(--color-white);
+  color: var(--color-navy-deep);
+  border-color: var(--color-white);
 }
 
 /* ============================================================
@@ -777,23 +614,18 @@ a:hover {
   .applications__layout { grid-template-columns: 1fr; gap: var(--space-lg); }
   .applications__image img { height: 350px; }
   .advantage-card { flex: 0 0 calc(50% - var(--space-md) / 2); }
-  .site-footer__grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 768px) {
-  .hero { padding: 6rem 0 3.5rem; }
-  .site-header__nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--color-navy-deep); flex-direction: column; padding: var(--space-sm) var(--space-md); box-shadow: var(--shadow-md); gap: var(--space-sm); }
-  .site-header__nav.open { display: flex; }
-  .nav-toggle { display: block; }
+  .hero { min-height: 320px; }
+  .hero__content { padding: var(--space-xl) var(--space-md) var(--space-md); }
   .advantage-card { flex: 0 0 100%; }
   .advantages__arrow { display: none; }
-  .site-footer__grid { grid-template-columns: 1fr; }
-  .site-footer__bottom { flex-direction: column; text-align: center; }
 }
 
 @media (max-width: 480px) {
-  .hero { padding: 5rem 0 2.5rem; }
-  .hero__title { font-size: 1.8rem; }
+  .hero { min-height: 260px; }
+  .hero__title { font-size: 1.4rem; }
   .applications__tabs { flex-direction: column; }
   .applications__tab { width: 100%; text-align: center; }
   .cta-section__actions { flex-direction: column; align-items: center; }
@@ -803,12 +635,13 @@ a:hover {
 </head>
 <body>
 
-  <!-- ====== HERO IMAGE BANNER ====== -->
-  <section class="hero-image">
-    <!-- PLACEHOLDER: Replace src with the industry landing page image -->
-    <img src="" alt="Pharmaceuticals &amp; Research" style="background:#d0e9fd;min-height:280px;">
-    <div class="hero-image__overlay">
-      <h1 class="hero-image__title">Pharmaceuticals &amp; Research</h1>
+  <!-- ====== HERO — Background image with left-aligned title ====== -->
+  <section class="hero">
+    <!-- PLACEHOLDER: Replace background-image url in .hero CSS with the landing page pharma image -->
+    <div class="hero__content">
+      <p class="hero__label">Industry Solutions</p>
+      <h1 class="hero__title">Pharmaceuticals &amp; Research</h1>
+      <hr class="hero__divider">
     </div>
   </section>
 
@@ -1048,9 +881,6 @@ a:hover {
     var resizeTimer;
     window.addEventListener('resize', function () { clearTimeout(resizeTimer); resizeTimer = setTimeout(function () { buildDots(); goToPage(0); }, 200); });
   }
-  var navToggle = document.querySelector('.nav-toggle');
-  var mainNav = document.getElementById('mainNav');
-  if (navToggle && mainNav) { navToggle.addEventListener('click', function () { var isOpen = mainNav.classList.toggle('open'); navToggle.setAttribute('aria-expanded', isOpen); }); }
 })();
   </script>
 </body>

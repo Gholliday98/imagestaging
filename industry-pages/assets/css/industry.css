@@ -322,6 +322,55 @@ a:hover {
 }
 
 /* ============================================================
+   HERO — Background-image variant (left-aligned, smaller title)
+   Applied via .hero--image modifier class
+   ============================================================ */
+.hero--image {
+  min-height: 420px;
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero--image::before {
+  background: linear-gradient(
+    to top,
+    rgba(3, 50, 94, 0.82) 0%,
+    rgba(3, 50, 94, 0.45) 40%,
+    rgba(3, 50, 94, 0.20) 100%
+  );
+}
+
+.hero--image .hero__content {
+  text-align: left;
+  padding: var(--space-2xl) var(--space-md) var(--space-lg);
+}
+
+.hero--image .hero__title {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+}
+
+.hero--image .hero__divider {
+  width: 60px;
+  margin: 0;
+}
+
+/* ============================================================
+   INTRO — Tight / single-spaced variant
+   Applied via .intro--tight modifier class
+   ============================================================ */
+.intro--tight {
+  text-align: left;
+}
+
+.intro--tight .intro__content p {
+  line-height: 1.45;
+  margin-bottom: 0.35em;
+}
+
+/* ============================================================
    INTRO TEXT SECTION  (centered text block below hero)
    ============================================================ */
 .intro {
@@ -849,6 +898,15 @@ a:hover {
     padding: 6rem 0 3.5rem;
   }
 
+  .hero--image {
+    min-height: 320px;
+    padding: 0;
+  }
+
+  .hero--image .hero__content {
+    padding: var(--space-xl) var(--space-md) var(--space-md);
+  }
+
   .site-header__nav {
     display: none;
     position: absolute;
@@ -895,6 +953,14 @@ a:hover {
 
   .hero__title {
     font-size: 1.8rem;
+  }
+
+  .hero--image {
+    min-height: 260px;
+  }
+
+  .hero--image .hero__title {
+    font-size: 1.4rem;
   }
 
   .applications__tabs {
