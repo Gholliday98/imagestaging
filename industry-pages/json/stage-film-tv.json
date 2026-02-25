@@ -1,10 +1,313 @@
 {
+  "content": [
+    {
+      "id": "9cbfef3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vw",
+          "size": 27.5
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_09.jpg",
+          "id": "",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.55)",
+        "background_overlay_color_b": "transparent",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "b0c26fb",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Stage, Film & TV",
+            "header_size": "h1",
+            "align": "left",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 3
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 16,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "28c8a23",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 760
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "d101651",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">For over 30 years, Plastic-Craft has been involved in the creation of stage and set designs for feature films, Broadway shows, and even events like the Olympics. We have the capabilities to manufacture beautifully polished and aesthetic works of art from your drawings or CAD specifications.</p><p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Designed to deliver exactly what you need &mdash; with attention to the details that matter most.</p>",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "02ce467",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "60aea95",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Stage, film, and TV set design plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-set\" id=\"tab-set\">Set Design &amp; Props</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-signage\" id=\"tab-signage\">Signage &amp; Displays</button>\n          </div>\n\n          <!-- Panel: Set Design & Props -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-set\" aria-labelledby=\"tab-set\">\n            <ul class=\"applications__list\">\n              <li>Custom fabricated set pieces</li>\n              <li>Optically clear materials</li>\n              <li>Detailed prop creation</li>\n              <li>Wall-mounted signs</li>\n              <li>Channel letters</li>\n              <li>Banners</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Signage & Displays -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-signage\" aria-labelledby=\"tab-signage\">\n            <ul class=\"applications__list\">\n              <li>Outdoor signage</li>\n              <li>Backlit / Electrical signs (LEDs)</li>\n              <li>Touch / Interactive signs</li>\n              <li>Sign boards (Menus)</li>\n              <li>Advertising (Indoor &amp; Outdoor)</li>\n              <li>Bus signs</li>\n              <li>Video walls</li>\n              <li>Digital signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "46ea2f5",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "3bc8d00",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>High-clarity, durable plastics for theatrical and production environments</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acrylic (PMMA)</span>\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">Polystyrene (PS)</span>\n      <span class=\"material-tag\">Polyurethane (PU/PUR)</span>\n      <span class=\"material-tag\">Polyvinyl Chloride (PVC)</span>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "ba0fe5f",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "f66c750",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Premium materials for show-stopping productions</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n            </div>\n            <h3>Optical Clarity</h3>\n            <p>Optical clarity with high light transmission for stunning visual effects on stage and screen.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Recyclable</h3>\n            <p>Lightweight materials for easy set changes and transport between venues.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Multi-Resistant</h3>\n            <p>Impact, corrosion, heat, fire, and chemical resistant for safe theatrical environments.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>\n            </div>\n            <h3>UV &amp; Color Stable</h3>\n            <p>UV resistance and color stability that holds up under intense stage lighting.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/><path d=\"M12 2L2 7l10 5 10-5L12 2z\"/></svg>\n            </div>\n            <h3>Design Flexibility</h3>\n            <p>Design flexibility with better thermoforming definition and a wide variety of colors and finishes.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Fast Production</h3>\n            <p>Fast drying and cycle times with excellent weatherability for outdoor productions.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "2a5cc91",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 600
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#F5F6F8",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "ed88671",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Get Started?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B365D",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1.6
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "09d45a8",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; color: #4A5568; text-align: center;\">Our skilled fabricators are ready to manufacture beautifully polished works of art from your drawings or CAD specifications.</p>",
+            "align": "center"
+          },
+          "elements": []
+        },
+        {
+          "id": "b5e365d",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "GET A QUOTE",
+            "link": {
+              "url": "/request-a-quote/",
+              "is_external": false,
+              "nofollow": false
+            },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.8
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#1B365D",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36",
+              "isLinked": false
+            },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#2A4A7A"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
   "title": "Stage, Film & TV",
-  "slug": "stage-film-tv",
-  "status": "draft",
-  "content": "<!-- ====== HERO — Background image with left-aligned title ====== -->\n  <section class=\"hero hero--image\" style=\"background-image: url('https://plastic-craft.com/wp-content/uploads/2026/02/image_09.jpg');\">\n\n    <div class=\"hero__content\">\n      <p class=\"hero__label\">Industry Solutions</p>\n      <h1 class=\"hero__title\">Stage, Film &amp; TV</h1>\n      <hr class=\"hero__divider\">\n    </div>\n  </section>\n\n  <!-- ====== INTRO TEXT ====== -->\n  <section class=\"intro intro--tight\">\n    <div class=\"container\">\n      <div class=\"intro__content\">\n        <p>For over 30 years, Plastic-Craft has been involved in the creation of stage and set designs for feature films, Broadway shows, and even events like the Olympics. We have the capabilities to manufacture beautifully polished and aesthetic works of art from your drawings or CAD specifications.</p>\n        <p>Designed to deliver exactly what you need &mdash; with attention to the details that matter most.</p>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== APPLICATIONS (Image + Tabbed Lists) ====== -->\n  <section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Stage, film, and TV set design plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-set\" id=\"tab-set\">Set Design &amp; Props</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-signage\" id=\"tab-signage\">Signage &amp; Displays</button>\n          </div>\n\n          <!-- Panel: Set Design & Props -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-set\" aria-labelledby=\"tab-set\">\n            <ul class=\"applications__list\">\n              <li>Custom fabricated set pieces</li>\n              <li>Optically clear materials</li>\n              <li>Detailed prop creation</li>\n              <li>Wall-mounted signs</li>\n              <li>Channel letters</li>\n              <li>Banners</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Signage & Displays -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-signage\" aria-labelledby=\"tab-signage\">\n            <ul class=\"applications__list\">\n              <li>Outdoor signage</li>\n              <li>Backlit / Electrical signs (LEDs)</li>\n              <li>Touch / Interactive signs</li>\n              <li>Sign boards (Menus)</li>\n              <li>Advertising (Indoor &amp; Outdoor)</li>\n              <li>Bus signs</li>\n              <li>Video walls</li>\n              <li>Digital signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== MATERIALS (Banner bar + Tag Grid) ====== -->\n  <section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>High-clarity, durable plastics for theatrical and production environments</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acrylic (PMMA)</span>\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">Polystyrene (PS)</span>\n      <span class=\"material-tag\">Polyurethane (PU/PUR)</span>\n      <span class=\"material-tag\">Polyvinyl Chloride (PVC)</span>\n    </div>\n  </section>\n\n  <!-- ====== ADVANTAGES (Card Carousel) ====== -->\n  <section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Premium materials for show-stopping productions</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n            </div>\n            <h3>Optical Clarity</h3>\n            <p>Optical clarity with high light transmission for stunning visual effects on stage and screen.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Recyclable</h3>\n            <p>Lightweight materials for easy set changes and transport between venues.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Multi-Resistant</h3>\n            <p>Impact, corrosion, heat, fire, and chemical resistant for safe theatrical environments.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>\n            </div>\n            <h3>UV &amp; Color Stable</h3>\n            <p>UV resistance and color stability that holds up under intense stage lighting.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/><path d=\"M12 2L2 7l10 5 10-5L12 2z\"/></svg>\n            </div>\n            <h3>Design Flexibility</h3>\n            <p>Design flexibility with better thermoforming definition and a wide variety of colors and finishes.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Fast Production</h3>\n            <p>Fast drying and cycle times with excellent weatherability for outdoor productions.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n    </div>\n  </section>\n\n  <!-- ====== CTA / CONTACT ====== -->\n  <section class=\"cta-section\">\n    <div class=\"container\">\n      <h2>Ready to Get Started?</h2>\n      <p>Our skilled fabricators are ready to manufacture beautifully polished works of art from your drawings or CAD specifications.</p>\n      <div class=\"cta-section__actions\">\n        <a href=\"#\" class=\"btn btn--primary\">Request a Quote</a>\n        <a href=\"#\" class=\"btn btn--outline\">Contact Our Team</a>\n      </div>\n    </div>\n  </section>",
-  "excerpt": "Plastic-Craft supplies plastics for stage design, feature films, Broadway shows, and major events — beautifully polished and aesthetic works of art from drawings or CAD specifications.",
-  "meta": {
-    "_yoast_wpseo_metadesc": "Plastic-Craft supplies plastics for stage design, feature films, Broadway shows, and major events — beautifully polished and aesthetic works of art from drawings or CAD specifications."
-  }
+  "type": "page"
 }

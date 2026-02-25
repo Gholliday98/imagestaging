@@ -1,10 +1,313 @@
 {
+  "content": [
+    {
+      "id": "7e1e38b",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vw",
+          "size": 27.5
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_06.jpg",
+          "id": "",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.55)",
+        "background_overlay_color_b": "transparent",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e0e42ce",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Defense",
+            "header_size": "h1",
+            "align": "left",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 3
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 16,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6c5b743",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 760
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "fe78e58",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Our nation&rsquo;s defense system is the backbone of this country and it is vital that their equipment is manufactured to rigorous standards. Plastic-Craft&rsquo;s staff engineers work with industry-standard CAD software to create designs with exacting precision.</p><p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Our machinists can manufacture components to specifications with precise tolerances, and we can produce large quantities of consistent parts that meet and exceed strict government regulations.</p>",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "8e1dbb1",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "eb72830",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Military defense plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-defense\" id=\"tab-defense\">Military Solutions</button>\n          </div>\n\n          <!-- Panel: Military Solutions -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-defense\" aria-labelledby=\"tab-defense\">\n            <ul class=\"applications__list\">\n              <li>Custom-fabricated parts for vehicles and equipment</li>\n              <li>Components meeting government regulations</li>\n              <li>High-impact resistant materials</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "99b32ed",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "3dc72be",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>High-performance plastics engineered for military-grade applications</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acetal (POM)</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">Polyetheretherketone (PEEK)</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">Polyvinyl Chloride (PVC)</span>\n      <span class=\"material-tag\">Phenolic</span>\n      <span class=\"material-tag\">UHMW Polyethylene</span>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6f4fa06",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "623a661",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Precision-engineered plastics built to exceed military standards</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <!-- Card 1 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"/><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>\n            </div>\n            <h3>Low Manufacturing Costs</h3>\n            <p>Cost-effective production for large quantities of consistent, precision-engineered components.</p>\n          </div>\n\n          <!-- Card 2 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/></svg>\n            </div>\n            <h3>High Purity &amp; Low Friction</h3>\n            <p>High purity materials with low friction and wear for demanding mechanical applications.</p>\n          </div>\n\n          <!-- Card 3 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Durable</h3>\n            <p>Lightweight with excellent wear properties, resistant to high temperatures, impact, and chemicals.</p>\n          </div>\n\n          <!-- Card 4 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\"/></svg>\n            </div>\n            <h3>Color Coding &amp; Ergonomics</h3>\n            <p>Color coding options and easy-to-create ergonomic designs for specialized military equipment.</p>\n          </div>\n\n          <!-- Card 5 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Thermal &amp; Chemical Stability</h3>\n            <p>Maintains physical properties under thermal, chemical, or electrical stress with excellent oxidative stability.</p>\n          </div>\n\n          <!-- Card 6 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M9 12l2 2 4-4\"/><path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z\"/></svg>\n            </div>\n            <h3>Regulatory Compliance</h3>\n            <p>Meets health regulations and precision dimensions. Can handle repeated sterilization with antimicrobial options.</p>\n          </div>\n\n          <!-- Card 7 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Abrasion &amp; Shatter Resistant</h3>\n            <p>Abrasion and shatter resistant materials built for the toughest military environments.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <!-- Carousel Dots -->\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "732f5e1",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 600
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#F5F6F8",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "7ea52a8",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Get Started?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B365D",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1.6
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "aeed98a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; color: #4A5568; text-align: center;\">Our staff engineers are ready to create precision-engineered designs that meet and exceed strict government regulations.</p>",
+            "align": "center"
+          },
+          "elements": []
+        },
+        {
+          "id": "e740bc1",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "GET A QUOTE",
+            "link": {
+              "url": "/request-a-quote/",
+              "is_external": false,
+              "nofollow": false
+            },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.8
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#1B365D",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36",
+              "isLinked": false
+            },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#2A4A7A"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
   "title": "Defense",
-  "slug": "defense",
-  "status": "draft",
-  "content": "<!-- ====== HERO — Background image with left-aligned title ====== -->\n  <section class=\"hero hero--image\" style=\"background-image: url('https://plastic-craft.com/wp-content/uploads/2026/02/image_06.jpg');\">\n\n    <div class=\"hero__content\">\n      <p class=\"hero__label\">Industry Solutions</p>\n      <h1 class=\"hero__title\">Defense</h1>\n      <hr class=\"hero__divider\">\n    </div>\n  </section>\n\n  <!-- ====== INTRO TEXT ====== -->\n  <section class=\"intro intro--tight\">\n    <div class=\"container\">\n      <div class=\"intro__content\">\n        <p>Our nation&rsquo;s defense system is the backbone of this country and it is vital that their equipment is manufactured to rigorous standards. Plastic-Craft&rsquo;s staff engineers work with industry-standard CAD software to create designs with exacting precision.</p>\n        <p>Our machinists can manufacture components to specifications with precise tolerances, and we can produce large quantities of consistent parts that meet and exceed strict government regulations.</p>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== APPLICATIONS (Image + Tabbed Lists) ====== -->\n  <section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Military defense plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-defense\" id=\"tab-defense\">Military Solutions</button>\n          </div>\n\n          <!-- Panel: Military Solutions -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-defense\" aria-labelledby=\"tab-defense\">\n            <ul class=\"applications__list\">\n              <li>Custom-fabricated parts for vehicles and equipment</li>\n              <li>Components meeting government regulations</li>\n              <li>High-impact resistant materials</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== MATERIALS (Banner bar + Tag Grid) ====== -->\n  <section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>High-performance plastics engineered for military-grade applications</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acetal (POM)</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">Polyetheretherketone (PEEK)</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">Polyvinyl Chloride (PVC)</span>\n      <span class=\"material-tag\">Phenolic</span>\n      <span class=\"material-tag\">UHMW Polyethylene</span>\n    </div>\n  </section>\n\n  <!-- ====== ADVANTAGES (Card Carousel) ====== -->\n  <section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Precision-engineered plastics built to exceed military standards</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <!-- Card 1 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"/><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>\n            </div>\n            <h3>Low Manufacturing Costs</h3>\n            <p>Cost-effective production for large quantities of consistent, precision-engineered components.</p>\n          </div>\n\n          <!-- Card 2 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/></svg>\n            </div>\n            <h3>High Purity &amp; Low Friction</h3>\n            <p>High purity materials with low friction and wear for demanding mechanical applications.</p>\n          </div>\n\n          <!-- Card 3 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Durable</h3>\n            <p>Lightweight with excellent wear properties, resistant to high temperatures, impact, and chemicals.</p>\n          </div>\n\n          <!-- Card 4 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\"/></svg>\n            </div>\n            <h3>Color Coding &amp; Ergonomics</h3>\n            <p>Color coding options and easy-to-create ergonomic designs for specialized military equipment.</p>\n          </div>\n\n          <!-- Card 5 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Thermal &amp; Chemical Stability</h3>\n            <p>Maintains physical properties under thermal, chemical, or electrical stress with excellent oxidative stability.</p>\n          </div>\n\n          <!-- Card 6 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M9 12l2 2 4-4\"/><path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z\"/></svg>\n            </div>\n            <h3>Regulatory Compliance</h3>\n            <p>Meets health regulations and precision dimensions. Can handle repeated sterilization with antimicrobial options.</p>\n          </div>\n\n          <!-- Card 7 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Abrasion &amp; Shatter Resistant</h3>\n            <p>Abrasion and shatter resistant materials built for the toughest military environments.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <!-- Carousel Dots -->\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n\n    </div>\n  </section>\n\n  <!-- ====== CTA / CONTACT ====== -->\n  <section class=\"cta-section\">\n    <div class=\"container\">\n      <h2>Ready to Get Started?</h2>\n      <p>Our staff engineers are ready to create precision-engineered designs that meet and exceed strict government regulations.</p>\n      <div class=\"cta-section__actions\">\n        <a href=\"#\" class=\"btn btn--primary\">Request a Quote</a>\n        <a href=\"#\" class=\"btn btn--outline\">Contact Our Team</a>\n      </div>\n    </div>\n  </section>",
-  "excerpt": "Plastic-Craft supplies precise, high-performance plastic parts for military vehicles, equipment, and defense applications — manufactured to rigorous government standards.",
-  "meta": {
-    "_yoast_wpseo_metadesc": "Plastic-Craft supplies precise, high-performance plastic parts for military vehicles, equipment, and defense applications — manufactured to rigorous government standards."
-  }
+  "type": "page"
 }

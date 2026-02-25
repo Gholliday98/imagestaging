@@ -1,10 +1,313 @@
 {
+  "content": [
+    {
+      "id": "ee087da",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vw",
+          "size": 27.5
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_15.jpg",
+          "id": "",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.55)",
+        "background_overlay_color_b": "transparent",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "6602652",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Power Supply",
+            "header_size": "h1",
+            "align": "left",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 3
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 16,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "526889c",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 760
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "ee35106",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Plastic-Craft provides plastics that improve safety, efficiency, and durability in electrical and power generation systems. Contractors and energy manufacturers rely on our materials because they deliver long-lasting insulation, resistance to heat, and strong electrical properties.</p><p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Our plastics are used in solar arrays, wind turbines, circuit boards, and cable jacketing, offering lightweight alternatives to metal components. They resist corrosion, provide high dielectric strength, and are easy to fabricate for both high- and low-voltage applications. Whether used in renewable energy or traditional electrical systems, our plastics help reduce maintenance and extend product life, ensuring dependable performance in demanding environments.</p>",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "cad46d3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "b8246e1",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Power supply and electrical plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-electrical\" id=\"tab-electrical\">Electrical Systems</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-renewable\" id=\"tab-renewable\">Renewable Energy</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-electrical\" aria-labelledby=\"tab-electrical\">\n            <ul class=\"applications__list\">\n              <li>Wire and cable insulation</li>\n              <li>Plenum-rated cable jacketing</li>\n              <li>Circuit boards and wiring boards</li>\n              <li>Connectors for data, automotive, and telecom</li>\n              <li>High-voltage breaker housings</li>\n              <li>Aircraft electrical insulators</li>\n              <li>Radar lenses and test sockets</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-renewable\" aria-labelledby=\"tab-renewable\">\n            <ul class=\"applications__list\">\n              <li>Solar array pivot bearings and housings</li>\n              <li>Wind turbine bearings and structural components</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "4c60c0e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "fceed29",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>Insulating, heat-resistant plastics for electrical and power generation systems</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">PBT</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">PEEK</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">PET</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">PPS</span>\n      <span class=\"material-tag\">PVC</span>\n      <span class=\"material-tag\">Thermoset Composites</span>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "7c6c7b3",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "922b536",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Dependable performance in demanding electrical environments</p>\n      </div>\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Excellent Insulation</h3>\n            <p>Excellent electrical insulation with high dielectric strength for safe, reliable power systems.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/><path d=\"M12 2L2 7l10 5 10-5L12 2z\"/></svg>\n            </div>\n            <h3>Static Dissipative Grades</h3>\n            <p>Static dissipative and conductive grades available for specialized electrical applications.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Corrosion Resistant</h3>\n            <p>Lightweight and corrosion resistant for long-lasting installations with reduced maintenance.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>\n            </div>\n            <h3>High Voltage &amp; Heat Tolerant</h3>\n            <p>Withstands high voltage and heat for both traditional and renewable energy systems.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Long Service Life</h3>\n            <p>Long service life and easy to install, reducing overall system maintenance costs.</p>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "125d2fa",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 600
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#F5F6F8",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "77c9332",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Get Started?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B365D",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1.6
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "8f1b507",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; color: #4A5568; text-align: center;\">Our specialist team delivers long-lasting insulation and strong electrical properties for renewable and traditional power systems.</p>",
+            "align": "center"
+          },
+          "elements": []
+        },
+        {
+          "id": "72ea221",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "GET A QUOTE",
+            "link": {
+              "url": "/request-a-quote/",
+              "is_external": false,
+              "nofollow": false
+            },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.8
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#1B365D",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36",
+              "isLinked": false
+            },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#2A4A7A"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
   "title": "Power Supply",
-  "slug": "power-supply",
-  "status": "draft",
-  "content": "<!-- ====== HERO — Background image with left-aligned title ====== -->\n  <section class=\"hero hero--image\" style=\"background-image: url('https://plastic-craft.com/wp-content/uploads/2026/02/image_15.jpg');\">\n\n    <div class=\"hero__content\">\n      <p class=\"hero__label\">Industry Solutions</p>\n      <h1 class=\"hero__title\">Power Supply</h1>\n      <hr class=\"hero__divider\">\n    </div>\n  </section>\n\n  <!-- ====== INTRO TEXT ====== -->\n  <section class=\"intro intro--tight\">\n    <div class=\"container\">\n      <div class=\"intro__content\">\n        <p>Plastic-Craft provides plastics that improve safety, efficiency, and durability in electrical and power generation systems. Contractors and energy manufacturers rely on our materials because they deliver long-lasting insulation, resistance to heat, and strong electrical properties.</p>\n        <p>Our plastics are used in solar arrays, wind turbines, circuit boards, and cable jacketing, offering lightweight alternatives to metal components. They resist corrosion, provide high dielectric strength, and are easy to fabricate for both high- and low-voltage applications. Whether used in renewable energy or traditional electrical systems, our plastics help reduce maintenance and extend product life, ensuring dependable performance in demanding environments.</p>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== APPLICATIONS ====== -->\n  <section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Power supply and electrical plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-electrical\" id=\"tab-electrical\">Electrical Systems</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-renewable\" id=\"tab-renewable\">Renewable Energy</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-electrical\" aria-labelledby=\"tab-electrical\">\n            <ul class=\"applications__list\">\n              <li>Wire and cable insulation</li>\n              <li>Plenum-rated cable jacketing</li>\n              <li>Circuit boards and wiring boards</li>\n              <li>Connectors for data, automotive, and telecom</li>\n              <li>High-voltage breaker housings</li>\n              <li>Aircraft electrical insulators</li>\n              <li>Radar lenses and test sockets</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-renewable\" aria-labelledby=\"tab-renewable\">\n            <ul class=\"applications__list\">\n              <li>Solar array pivot bearings and housings</li>\n              <li>Wind turbine bearings and structural components</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n\n  <!-- ====== MATERIALS ====== -->\n  <section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>Insulating, heat-resistant plastics for electrical and power generation systems</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">PBT</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">PEEK</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n      <span class=\"material-tag\">PET</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">PPS</span>\n      <span class=\"material-tag\">PVC</span>\n      <span class=\"material-tag\">Thermoset Composites</span>\n    </div>\n  </section>\n\n  <!-- ====== ADVANTAGES ====== -->\n  <section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Dependable performance in demanding electrical environments</p>\n      </div>\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Excellent Insulation</h3>\n            <p>Excellent electrical insulation with high dielectric strength for safe, reliable power systems.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/><path d=\"M12 2L2 7l10 5 10-5L12 2z\"/></svg>\n            </div>\n            <h3>Static Dissipative Grades</h3>\n            <p>Static dissipative and conductive grades available for specialized electrical applications.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Corrosion Resistant</h3>\n            <p>Lightweight and corrosion resistant for long-lasting installations with reduced maintenance.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"5\"/><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"3\"/><line x1=\"12\" y1=\"21\" x2=\"12\" y2=\"23\"/><line x1=\"4.22\" y1=\"4.22\" x2=\"5.64\" y2=\"5.64\"/><line x1=\"18.36\" y1=\"18.36\" x2=\"19.78\" y2=\"19.78\"/><line x1=\"1\" y1=\"12\" x2=\"3\" y2=\"12\"/><line x1=\"21\" y1=\"12\" x2=\"23\" y2=\"12\"/><line x1=\"4.22\" y1=\"19.78\" x2=\"5.64\" y2=\"18.36\"/><line x1=\"18.36\" y1=\"5.64\" x2=\"19.78\" y2=\"4.22\"/></svg>\n            </div>\n            <h3>High Voltage &amp; Heat Tolerant</h3>\n            <p>Withstands high voltage and heat for both traditional and renewable energy systems.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Long Service Life</h3>\n            <p>Long service life and easy to install, reducing overall system maintenance costs.</p>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n    </div>\n  </section>\n\n  <!-- ====== CTA ====== -->\n  <section class=\"cta-section\">\n    <div class=\"container\">\n      <h2>Ready to Get Started?</h2>\n      <p>Our specialist team delivers long-lasting insulation and strong electrical properties for renewable and traditional power systems.</p>\n      <div class=\"cta-section__actions\">\n        <a href=\"#\" class=\"btn btn--primary\">Request a Quote</a>\n        <a href=\"#\" class=\"btn btn--outline\">Contact Our Team</a>\n      </div>\n    </div>\n  </section>",
-  "excerpt": "Plastic-Craft provides plastics that improve safety, efficiency, and durability in electrical and power generation systems — insulation, circuit boards, and renewable energy components.",
-  "meta": {
-    "_yoast_wpseo_metadesc": "Plastic-Craft provides plastics that improve safety, efficiency, and durability in electrical and power generation systems — insulation, circuit boards, and renewable energy components."
-  }
+  "type": "page"
 }
