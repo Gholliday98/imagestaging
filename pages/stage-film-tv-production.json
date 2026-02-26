@@ -1,28 +1,45 @@
 {
   "content": [
     {
-      "id": "a1b2c3d",
+      "id": "029c722",
       "elType": "container",
       "settings": {
         "content_width": "full",
-        "min_height": { "unit": "vw", "size": 27.5 },
+        "min_height": {
+          "unit": "vw",
+          "size": 27.5
+        },
         "flex_direction": "column",
         "flex_justify_content": "center",
         "flex_align_items": "flex-start",
         "background_background": "classic",
-        "background_image": { "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_09.jpg", "id": "", "size": "" },
+        "background_image": {
+          "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_09.jpg",
+          "id": "",
+          "size": ""
+        },
         "background_position": "center center",
         "background_size": "cover",
         "background_overlay_background": "gradient",
         "background_overlay_color": "rgba(0,0,0,0.55)",
         "background_overlay_color_b": "transparent",
         "background_overlay_gradient_type": "linear",
-        "background_overlay_gradient_angle": { "unit": "deg", "size": 90 },
-        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "e4f5a6b",
+          "id": "747a0aa",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -32,11 +49,22 @@
             "title_color": "#FFFFFF",
             "typography_typography": "custom",
             "typography_font_family": "Montserrat",
-            "typography_font_size": { "unit": "rem", "size": 3 },
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 3
+            },
             "typography_font_weight": "700",
             "typography_text_transform": "uppercase",
-            "typography_letter_spacing": { "unit": "px", "size": 3 },
-            "text_shadow_text_shadow": { "horizontal": 0, "vertical": 2, "blur": 16, "color": "rgba(0,0,0,0.6)" }
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 16,
+              "color": "rgba(0,0,0,0.6)"
+            }
           },
           "elements": []
         }
@@ -44,22 +72,32 @@
       "isInner": false
     },
     {
-      "id": "b2c3d4e",
+      "id": "4d5f302",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
-        "boxed_width": { "unit": "px", "size": 760 },
+        "boxed_width": {
+          "unit": "px",
+          "size": 760
+        },
         "flex_direction": "column",
         "flex_align_items": "center",
-        "padding": { "unit": "px", "top": "56", "right": "40", "bottom": "56", "left": "40", "isLinked": false }
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        }
       },
       "elements": [
         {
-          "id": "c3d4e5f",
+          "id": "3c99709",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">From Broadway stages to Hollywood sound stages, plastic materials are essential for building sets, props, lighting diffusers, and special effects elements. Our sheets and rods are trusted by production designers, scenic shops, and prop houses for their workability, durability, and visual versatility.</p>",
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">From Broadway stages to Hollywood sound stages, plastic materials are essential for building sets, props, lighting diffusers, and special effects elements. Our sheets and rods are trusted by production designers, scenic shops, and prop houses for their workability, durability, and visual versatility.</p><p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Choosing a company like Plastic-Craft, with extensive experience in the entertainment industry, means you get production-grade materials cut to your exact specifications\u2014delivered on time and on budget.</p>",
             "align": "center"
           },
           "elements": []
@@ -68,19 +106,26 @@
       "isInner": false
     },
     {
-      "id": "d4e5f6a",
+      "id": "4f09038",
       "elType": "container",
       "settings": {
         "content_width": "full",
-        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
       },
       "elements": [
         {
-          "id": "e5f6a7b",
+          "id": "ca77c0d",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<style>\n.applications{background:#fff;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.applications .section-header{text-align:center;padding:56px 40px 32px}\n.applications .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.applications .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.applications .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.applications .app-showcase{display:flex;align-items:stretch;min-height:420px;background:#F7F8FA}\n.applications .app-image{flex:0 0 45%;position:relative;overflow:hidden}\n.applications .app-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}\n.applications .app-image:hover img{transform:scale(1.03)}\n.applications .app-content{flex:1;display:flex;flex-direction:column;justify-content:center;padding:48px 56px}\n.applications .tab-nav{display:flex;gap:0;margin-bottom:28px;border-bottom:2px solid #E2E8F0}\n.applications .tab-btn{font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#94A3B8;background:none;border:none;padding:10px 20px 12px;cursor:pointer;position:relative;transition:color .25s}\n.applications .tab-btn::after{content:'';position:absolute;left:0;right:0;bottom:-2px;height:2px;background:#1B365D;transform:scaleX(0);transition:transform .25s}\n.applications .tab-btn.active{color:#1B365D}\n.applications .tab-btn.active::after{transform:scaleX(1)}\n.applications .tab-btn:hover{color:#1B365D}\n.applications .tab-panel{display:none;animation:fadeTab .4s ease}\n.applications .tab-panel.active{display:block}\n@keyframes fadeTab{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}\n.applications .tab-panel h3{font-family:'Montserrat',sans-serif;font-size:.95rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin:0 0 14px}\n.applications .tab-panel ul{list-style:none;padding:0;margin:0}\n.applications .tab-panel li{position:relative;padding:6px 0 6px 20px;font-family:'Lora',serif;font-size:.97rem;color:#4A5568;line-height:1.65}\n.applications .tab-panel li::before{content:'';position:absolute;left:0;top:13px;width:7px;height:7px;background:#1B365D;border-radius:50%}\n@media(max-width:768px){.applications .app-showcase{flex-direction:column}.applications .app-image{flex:0 0 auto;height:260px}.applications .app-content{padding:32px 24px}.applications .tab-btn{font-size:.65rem;padding:8px 12px 10px}}\n</style>\n<section class=\"applications\" id=\"applications\">\n  <div class=\"section-header\">\n    <h2>Applications</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Versatile plastic solutions for every phase of production\u2014from concept to curtain call.</p>\n  </div>\n  <div class=\"app-showcase\">\n    <div class=\"app-image\">\n      <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/stagefilmtvprod2.jpeg\" alt=\"Stage, Film & TV Production applications\" loading=\"lazy\">\n    </div>\n    <div class=\"app-content\">\n      <div class=\"tab-nav\">\n        <button class=\"tab-btn active\" data-tab=\"sets-props\">Sets & Props</button>\n        <button class=\"tab-btn\" data-tab=\"lighting-fx\">Lighting & Effects</button>\n      </div>\n      <div id=\"sets-props\" class=\"tab-panel active\">\n        <h3>Sets & Props</h3>\n        <ul>\n          <li>Scenic flats, backdrops, and false walls</li>\n          <li>Lightweight prop replicas and hero props</li>\n          <li>Faux glass and breakaway panels for stunts</li>\n          <li>Architectural columns, moldings, and period details</li>\n          <li>Vacuum-formed terrain, vehicles, and furniture</li>\n          <li>CNC-routed dimensional logos and set dressing</li>\n        </ul>\n      </div>\n      <div id=\"lighting-fx\" class=\"tab-panel\">\n        <h3>Lighting & Effects</h3>\n        <ul>\n          <li>Light diffusion panels and custom gel frames</li>\n          <li>LED-backlit translucent walls and signage</li>\n          <li>Mirror and reflective surfaces for special effects</li>\n          <li>Colored transparent sheets for mood lighting</li>\n          <li>Projection screens and rear-projection surfaces</li>\n          <li>Protective shields and blast screens for pyrotechnics</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</section>"
+            "html": "<style>\n/* ============================================================\n   Plastic-Craft Industries \u2014 Global Stylesheet\n   Brand Kit Colors & Typography\n   ============================================================ */\n\n/* --- Google / Web Fonts --- */\n@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Alice&display=swap');\n\n/* Peace Sans \u2014 commercial font, loaded locally with fallback */\n@font-face {\n  font-family: 'Peace Sans';\n  src: url('../fonts/PeaceSans.woff2') format('woff2'),\n       url('../fonts/PeaceSans.woff')  format('woff');\n  font-weight: normal;\n  font-style: normal;\n  font-display: swap;\n}\n\n/* Weiss \u2014 commercial font with fallback */\n@font-face {\n  font-family: 'Weiss';\n  src: url('../fonts/Weiss.woff2') format('woff2'),\n       url('../fonts/Weiss.woff')  format('woff');\n  font-weight: normal;\n  font-style: normal;\n  font-display: swap;\n}\n\n/* Copperplate Gothic 29 BC \u2014 commercial font with fallback */\n@font-face {\n  font-family: 'Copperplate Gothic 29 BC';\n  src: url('../fonts/CopperplateGothic29BC.woff2') format('woff2'),\n       url('../fonts/CopperplateGothic29BC.woff')  format('woff');\n  font-weight: normal;\n  font-style: normal;\n  font-display: swap;\n}\n\n/* --- CSS Custom Properties (Brand Tokens) --- */\n:root {\n  /* Primary Palette */\n  --color-primary:          #1380da;\n  --color-primary-light:    #64b7f0;\n  --color-primary-pale:     #d0e9fd;\n  --color-primary-bright:   #2e8eff;\n  --color-accent-blue:      #031aec;\n  --color-accent-indigo:    #0b108b;\n\n  /* Dark / Navy */\n  --color-navy:             #07276e;\n  --color-navy-deep:        #03325e;\n\n  /* Neutrals */\n  --color-white:            #ffffff;\n  --color-gray:             #666666;\n  --color-gray-blue:        #83b1d1;\n  --color-gray-light:       #d4e1ed;\n\n  /* Typography Families */\n  --font-title:      'Peace Sans', 'Montserrat', 'Arial Black', sans-serif;\n  --font-subtitle:   'Playfair Display', Georgia, serif;\n  --font-heading:    'Playfair Display', Georgia, serif;\n  --font-subheading: 'Weiss', 'Garamond', 'Times New Roman', serif;\n  --font-section:    'Alice', 'Playfair Display', Georgia, serif;\n  --font-body:       'Times New Roman', Times, serif;\n  --font-quote:      'Copperplate Gothic 29 BC', 'Copperplate', serif;\n  --font-caption:    'Times New Roman', Times, serif;\n\n  /* Spacing Scale */\n  --space-xs:  0.5rem;\n  --space-sm:  1rem;\n  --space-md:  1.5rem;\n  --space-lg:  2.5rem;\n  --space-xl:  4rem;\n  --space-2xl: 6rem;\n\n  /* Layout */\n  --max-width:    1200px;\n  --border-radius: 6px;\n\n  /* Shadows */\n  --shadow-sm:  0 1px 3px rgba(3, 50, 94, 0.08);\n  --shadow-md:  0 4px 12px rgba(3, 50, 94, 0.12);\n  --shadow-lg:  0 8px 30px rgba(3, 50, 94, 0.16);\n}\n\n/* --- Reset & Base --- */\n*,\n*::before,\n*::after {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 16px;\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\nbody {\n  font-family: var(--font-body);\n  color: var(--color-navy-deep);\n  background-color: var(--color-white);\n  line-height: 1.7;\n}\n\nimg {\n  max-width: 100%;\n  height: auto;\n  display: block;\n}\n\na {\n  color: var(--color-primary);\n  text-decoration: none;\n  transition: color 0.25s ease;\n}\n\na:hover {\n  color: var(--color-accent-blue);\n}\n\n/* --- Utility --- */\n.container {\n  width: 100%;\n  max-width: var(--max-width);\n  margin: 0 auto;\n  padding: 0 var(--space-md);\n}\n\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0,0,0,0);\n  border: 0;\n}\n\n/* ============================================================\n   HEADER / NAVIGATION\n   ============================================================ */\n.site-header {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  z-index: 100;\n  padding: var(--space-sm) 0;\n}\n\n.site-header .container {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.site-header__logo {\n  font-family: var(--font-title);\n  font-size: 1.4rem;\n  color: var(--color-white);\n  letter-spacing: 0.5px;\n}\n\n.site-header__logo span {\n  color: var(--color-primary-light);\n}\n\n.site-header__nav {\n  display: flex;\n  list-style: none;\n  gap: var(--space-lg);\n}\n\n.site-header__nav a {\n  font-family: var(--font-section);\n  font-size: 0.95rem;\n  color: rgba(255,255,255,0.85);\n  transition: color 0.25s ease;\n  letter-spacing: 0.3px;\n}\n\n.site-header__nav a:hover,\n.site-header__nav a.active {\n  color: var(--color-white);\n}\n\n/* Mobile nav toggle */\n.nav-toggle {\n  display: none;\n  background: none;\n  border: none;\n  cursor: pointer;\n  padding: var(--space-xs);\n}\n\n.nav-toggle span {\n  display: block;\n  width: 26px;\n  height: 2px;\n  background: var(--color-white);\n  margin: 5px 0;\n  transition: 0.3s;\n  border-radius: 2px;\n}\n\n/* ============================================================\n   HERO SECTION  (matches wireframe: full-width dark banner)\n   ============================================================ */\n.hero {\n  position: relative;\n  background: linear-gradient(160deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, #0d4a8a 100%);\n  color: var(--color-white);\n  padding: 8rem 0 5rem;\n  text-align: center;\n  overflow: hidden;\n}\n\n.hero::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background:\n    radial-gradient(ellipse at 30% 100%, rgba(19,128,218,0.12) 0%, transparent 55%),\n    radial-gradient(ellipse at 70% 0%, rgba(100,183,240,0.08) 0%, transparent 50%);\n  pointer-events: none;\n}\n\n/* Subtle geometric pattern overlay */\n.hero::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background-image:\n    linear-gradient(30deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%),\n    linear-gradient(150deg, rgba(255,255,255,0.015) 12%, transparent 12.5%, transparent 87%, rgba(255,255,255,0.015) 87.5%);\n  background-size: 80px 140px;\n  pointer-events: none;\n}\n\n.hero__content {\n  position: relative;\n  z-index: 1;\n}\n\n.hero__label {\n  display: inline-block;\n  font-family: var(--font-quote);\n  font-size: 0.7rem;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  color: var(--color-primary-light);\n  margin-bottom: var(--space-sm);\n}\n\n.hero__title {\n  font-family: var(--font-title);\n  font-size: clamp(2.4rem, 6vw, 4rem);\n  line-height: 1.1;\n  margin-bottom: var(--space-sm);\n  letter-spacing: 1px;\n}\n\n.hero__divider {\n  width: 80px;\n  height: 3px;\n  background: var(--color-primary-light);\n  margin: var(--space-md) auto;\n  border: none;\n  border-radius: 2px;\n}\n\n.hero__subtitle {\n  font-family: var(--font-subtitle);\n  font-size: clamp(1rem, 2vw, 1.25rem);\n  font-weight: 400;\n  font-style: italic;\n  line-height: 1.6;\n  color: var(--color-gray-light);\n  max-width: 650px;\n  margin: 0 auto;\n}\n\n/* ============================================================\n   HERO IMAGE SECTION  (placeholder image banner, compact)\n   ============================================================ */\n.hero-image {\n  position: relative;\n  width: 100%;\n  overflow: hidden;\n}\n\n.hero-image img {\n  width: 100%;\n  height: 280px;\n  object-fit: cover;\n  display: block;\n}\n\n.hero-image__overlay {\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(to top, rgba(3,50,94,0.55) 0%, rgba(3,50,94,0.15) 100%);\n  display: flex;\n  align-items: flex-end;\n  padding: var(--space-lg) var(--space-md);\n}\n\n.hero-image__title {\n  font-family: var(--font-title);\n  font-size: clamp(1.6rem, 4vw, 2.6rem);\n  color: var(--color-white);\n  letter-spacing: 1px;\n  max-width: var(--max-width);\n  margin: 0 auto;\n  width: 100%;\n}\n\n/* ============================================================\n   HERO \u2014 Background-image variant (left-aligned, smaller title)\n   Applied via .hero--image modifier class\n   ============================================================ */\n.hero--image {\n  min-height: 420px;\n  display: flex;\n  align-items: flex-end;\n  text-align: left;\n  background-size: cover;\n  background-position: center;\n}\n\n.hero--image::before {\n  background: linear-gradient(\n    to top,\n    rgba(3, 50, 94, 0.82) 0%,\n    rgba(3, 50, 94, 0.45) 40%,\n    rgba(3, 50, 94, 0.20) 100%\n  );\n}\n\n.hero--image .hero__content {\n  text-align: left;\n  padding: var(--space-2xl) var(--space-md) var(--space-lg);\n}\n\n.hero--image .hero__title {\n  font-size: clamp(1.6rem, 4vw, 2.4rem);\n}\n\n.hero--image .hero__divider {\n  width: 60px;\n  margin: 0;\n}\n\n/* ============================================================\n   INTRO \u2014 Tight / single-spaced variant\n   Applied via .intro--tight modifier class\n   ============================================================ */\n.intro--tight {\n  text-align: left;\n}\n\n.intro--tight .intro__content p {\n  line-height: 1.45;\n  margin-bottom: 0.35em;\n}\n\n/* ============================================================\n   INTRO TEXT SECTION  (centered text block below hero)\n   ============================================================ */\n.intro {\n  padding: var(--space-xl) 0;\n  background: var(--color-white);\n  text-align: center;\n}\n\n.intro__content {\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.intro__content p {\n  font-family: var(--font-body);\n  font-size: 1.08rem;\n  color: var(--color-gray);\n  line-height: 1.85;\n  margin-bottom: var(--space-md);\n}\n\n.intro__content p:last-child {\n  margin-bottom: 0;\n}\n\n/* ============================================================\n   APPLICATIONS SECTION  (image left + tabbed list right)\n   ============================================================ */\n.applications {\n  padding: var(--space-2xl) 0 var(--space-xl);\n  background: linear-gradient(170deg, var(--color-primary-pale) 0%, #e8f3fc 40%, var(--color-white) 100%);\n}\n\n.applications__layout {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: var(--space-xl);\n  align-items: start;\n}\n\n.applications__image {\n  position: relative;\n  border-radius: var(--border-radius);\n  overflow: hidden;\n  box-shadow: var(--shadow-lg);\n}\n\n.applications__image img {\n  width: 100%;\n  height: 480px;\n  object-fit: cover;\n}\n\n/* Blue-tint overlay on image */\n.applications__image::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(180deg, rgba(3,50,94,0.05) 0%, rgba(3,50,94,0.25) 100%);\n  pointer-events: none;\n}\n\n.applications__body h2 {\n  font-family: var(--font-heading);\n  font-size: clamp(1.5rem, 3vw, 2.2rem);\n  color: var(--color-navy-deep);\n  margin-bottom: var(--space-md);\n}\n\n/* Tabs */\n.applications__tabs {\n  display: flex;\n  gap: var(--space-xs);\n  margin-bottom: var(--space-md);\n  flex-wrap: wrap;\n}\n\n.applications__tab {\n  font-family: var(--font-section);\n  font-size: 0.88rem;\n  padding: 0.5em 1.2em;\n  border: 2px solid var(--color-gray-light);\n  border-radius: var(--border-radius);\n  background: var(--color-white);\n  color: var(--color-gray);\n  cursor: pointer;\n  transition: all 0.25s ease;\n}\n\n.applications__tab:hover {\n  border-color: var(--color-primary-light);\n  color: var(--color-primary);\n}\n\n.applications__tab.active {\n  background: var(--color-primary);\n  border-color: var(--color-primary);\n  color: var(--color-white);\n}\n\n/* Panels */\n.applications__panel {\n  display: none;\n}\n\n.applications__panel.active {\n  display: block;\n  animation: fadeIn 0.35s ease;\n}\n\n@keyframes fadeIn {\n  from { opacity: 0; transform: translateY(6px); }\n  to   { opacity: 1; transform: translateY(0); }\n}\n\n.applications__list {\n  list-style: none;\n}\n\n.applications__list li {\n  display: flex;\n  align-items: flex-start;\n  gap: 0.75em;\n  padding: 0.55em 0;\n  border-bottom: 1px solid rgba(3,50,94,0.06);\n  font-family: var(--font-body);\n  font-size: 1rem;\n  color: var(--color-navy-deep);\n  line-height: 1.5;\n}\n\n.applications__list li:last-child {\n  border-bottom: none;\n}\n\n.applications__list li::before {\n  content: '';\n  flex-shrink: 0;\n  width: 7px;\n  height: 7px;\n  background: var(--color-primary);\n  border-radius: 50%;\n  margin-top: 0.5em;\n}\n\n/* ============================================================\n   MATERIALS SECTION  (teal/blue banner bar + tag grid)\n   ============================================================ */\n.materials {\n  padding: 0;\n  background: var(--color-white);\n}\n\n.materials__banner {\n  background: linear-gradient(135deg, var(--color-navy-deep) 0%, var(--color-navy) 60%, var(--color-primary) 100%);\n  padding: var(--space-lg) 0;\n  text-align: center;\n}\n\n.materials__banner h2 {\n  font-family: var(--font-heading);\n  font-size: clamp(1.5rem, 3vw, 2rem);\n  color: var(--color-white);\n  margin-bottom: 0.2em;\n}\n\n.materials__banner p {\n  font-family: var(--font-subheading);\n  font-size: 1rem;\n  color: var(--color-gray-blue);\n}\n\n.materials__grid {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  gap: var(--space-sm);\n  padding: var(--space-xl) var(--space-md);\n  max-width: var(--max-width);\n  margin: 0 auto;\n}\n\n.material-tag {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.4em;\n  font-family: var(--font-section);\n  font-size: 0.92rem;\n  color: var(--color-navy-deep);\n  background: var(--color-primary-pale);\n  border: 1px solid rgba(19,128,218,0.15);\n  padding: 0.6em 1.4em;\n  border-radius: 50px;\n  transition: all 0.25s ease;\n  cursor: default;\n}\n\n.material-tag:hover {\n  background: var(--color-primary);\n  color: var(--color-white);\n  border-color: var(--color-primary);\n  transform: translateY(-2px);\n  box-shadow: var(--shadow-sm);\n}\n\n/* ============================================================\n   ADVANTAGES SECTION  (card carousel row + dots)\n   ============================================================ */\n.advantages {\n  padding: var(--space-2xl) 0;\n  background: var(--color-gray-light);\n}\n\n.advantages__header {\n  text-align: center;\n  margin-bottom: var(--space-xl);\n}\n\n.advantages__header h2 {\n  font-family: var(--font-heading);\n  font-size: clamp(1.5rem, 3vw, 2.2rem);\n  color: var(--color-navy-deep);\n  margin-bottom: var(--space-xs);\n}\n\n.advantages__header p {\n  font-family: var(--font-subheading);\n  font-size: 1.05rem;\n  color: var(--color-gray);\n}\n\n/* Carousel wrapper */\n.advantages__carousel {\n  position: relative;\n  overflow: hidden;\n}\n\n.advantages__track {\n  display: flex;\n  gap: var(--space-md);\n  transition: transform 0.45s ease;\n}\n\n.advantage-card {\n  flex: 0 0 calc(33.333% - var(--space-md) * 2 / 3);\n  background: var(--color-white);\n  border-radius: var(--border-radius);\n  padding: var(--space-lg) var(--space-md);\n  box-shadow: var(--shadow-sm);\n  border-top: 4px solid var(--color-primary);\n  transition: transform 0.25s ease, box-shadow 0.25s ease;\n}\n\n.advantage-card:hover {\n  transform: translateY(-4px);\n  box-shadow: var(--shadow-md);\n}\n\n.advantage-card__icon {\n  width: 50px;\n  height: 50px;\n  background: var(--color-primary-pale);\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: var(--space-sm);\n}\n\n.advantage-card__icon svg {\n  width: 24px;\n  height: 24px;\n  stroke: var(--color-primary);\n  fill: none;\n  stroke-width: 2;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.advantage-card h3 {\n  font-family: var(--font-section);\n  font-size: 1.02rem;\n  color: var(--color-navy-deep);\n  margin-bottom: 0.4em;\n  line-height: 1.35;\n}\n\n.advantage-card p {\n  font-family: var(--font-body);\n  font-size: 0.93rem;\n  color: var(--color-gray);\n  line-height: 1.65;\n}\n\n/* Carousel dots */\n.advantages__dots {\n  display: flex;\n  justify-content: center;\n  gap: 0.5rem;\n  margin-top: var(--space-lg);\n}\n\n.advantages__dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: var(--color-gray-blue);\n  border: none;\n  cursor: pointer;\n  transition: background 0.25s ease, transform 0.2s ease;\n  padding: 0;\n}\n\n.advantages__dot.active {\n  background: var(--color-primary);\n  transform: scale(1.25);\n}\n\n.advantages__dot:hover {\n  background: var(--color-primary-light);\n}\n\n/* Carousel arrows */\n.advantages__arrow {\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 2px solid var(--color-gray-blue);\n  background: var(--color-white);\n  color: var(--color-navy-deep);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  z-index: 2;\n  transition: all 0.25s ease;\n  font-size: 1.1rem;\n}\n\n.advantages__arrow:hover {\n  background: var(--color-primary);\n  border-color: var(--color-primary);\n  color: var(--color-white);\n}\n\n.advantages__arrow--prev {\n  left: -12px;\n}\n\n.advantages__arrow--next {\n  right: -12px;\n}\n\n/* ============================================================\n   CTA / CONTACT SECTION  (light blue bottom bar)\n   ============================================================ */\n.cta-section {\n  padding: var(--space-2xl) 0;\n  background: var(--color-primary-pale);\n  text-align: center;\n}\n\n.cta-section h2 {\n  font-family: var(--font-heading);\n  font-size: clamp(1.4rem, 3vw, 2rem);\n  color: var(--color-navy-deep);\n  margin-bottom: var(--space-xs);\n}\n\n.cta-section p {\n  font-family: var(--font-body);\n  font-size: 1.05rem;\n  color: var(--color-gray);\n  max-width: 620px;\n  margin: 0 auto var(--space-lg);\n  line-height: 1.7;\n}\n\n.cta-section__actions {\n  display: flex;\n  justify-content: center;\n  gap: var(--space-sm);\n  flex-wrap: wrap;\n}\n\n.btn {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.5em;\n  font-family: var(--font-section);\n  font-size: 1rem;\n  padding: 0.85em 2.2em;\n  border-radius: var(--border-radius);\n  border: 2px solid transparent;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  text-decoration: none;\n}\n\n.btn--primary {\n  background: var(--color-primary);\n  color: var(--color-white);\n  border-color: var(--color-primary);\n}\n\n.btn--primary:hover {\n  background: var(--color-primary-bright);\n  border-color: var(--color-primary-bright);\n  color: var(--color-white);\n}\n\n.btn--outline {\n  background: transparent;\n  color: var(--color-navy-deep);\n  border-color: var(--color-navy-deep);\n}\n\n.btn--outline:hover {\n  background: var(--color-navy-deep);\n  color: var(--color-white);\n}\n\n/* ============================================================\n   FOOTER\n   ============================================================ */\n.site-footer {\n  background: var(--color-navy-deep);\n  color: var(--color-gray-blue);\n  padding: var(--space-xl) 0 var(--space-md);\n}\n\n.site-footer__grid {\n  display: grid;\n  grid-template-columns: 2fr 1fr 1fr 1fr;\n  gap: var(--space-lg);\n  margin-bottom: var(--space-lg);\n}\n\n.site-footer__brand {\n  font-family: var(--font-title);\n  font-size: 1.3rem;\n  color: var(--color-white);\n  margin-bottom: var(--space-sm);\n}\n\n.site-footer__brand span {\n  color: var(--color-primary-light);\n}\n\n.site-footer__desc {\n  font-family: var(--font-body);\n  font-size: 0.9rem;\n  line-height: 1.7;\n  color: var(--color-gray-blue);\n}\n\n.site-footer h4 {\n  font-family: var(--font-section);\n  font-size: 0.95rem;\n  color: var(--color-white);\n  margin-bottom: var(--space-sm);\n}\n\n.site-footer ul {\n  list-style: none;\n}\n\n.site-footer ul li {\n  margin-bottom: 0.5em;\n}\n\n.site-footer ul a {\n  font-family: var(--font-body);\n  font-size: 0.9rem;\n  color: var(--color-gray-blue);\n  transition: color 0.25s ease;\n}\n\n.site-footer ul a:hover {\n  color: var(--color-primary-light);\n}\n\n.site-footer__bottom {\n  border-top: 1px solid rgba(255,255,255,0.1);\n  padding-top: var(--space-md);\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-wrap: wrap;\n  gap: var(--space-sm);\n}\n\n.site-footer__copyright {\n  font-family: var(--font-caption);\n  font-size: 0.85rem;\n}\n\n/* ============================================================\n   RESPONSIVE\n   ============================================================ */\n@media (max-width: 1024px) {\n  .applications__layout {\n    grid-template-columns: 1fr;\n    gap: var(--space-lg);\n  }\n\n  .applications__image img {\n    height: 350px;\n  }\n\n  .advantage-card {\n    flex: 0 0 calc(50% - var(--space-md) / 2);\n  }\n\n  .site-footer__grid {\n    grid-template-columns: 1fr 1fr;\n  }\n}\n\n@media (max-width: 768px) {\n  .hero {\n    padding: 6rem 0 3.5rem;\n  }\n\n  .hero--image {\n    min-height: 320px;\n    padding: 0;\n  }\n\n  .hero--image .hero__content {\n    padding: var(--space-xl) var(--space-md) var(--space-md);\n  }\n\n  .site-header__nav {\n    display: none;\n    position: absolute;\n    top: 100%;\n    left: 0;\n    right: 0;\n    background: var(--color-navy-deep);\n    flex-direction: column;\n    padding: var(--space-sm) var(--space-md);\n    box-shadow: var(--shadow-md);\n    gap: var(--space-sm);\n  }\n\n  .site-header__nav.open {\n    display: flex;\n  }\n\n  .nav-toggle {\n    display: block;\n  }\n\n  .advantage-card {\n    flex: 0 0 100%;\n  }\n\n  .advantages__arrow {\n    display: none;\n  }\n\n  .site-footer__grid {\n    grid-template-columns: 1fr;\n  }\n\n  .site-footer__bottom {\n    flex-direction: column;\n    text-align: center;\n  }\n}\n\n@media (max-width: 480px) {\n  .hero {\n    padding: 5rem 0 2.5rem;\n  }\n\n  .hero__title {\n    font-size: 1.8rem;\n  }\n\n  .hero--image {\n    min-height: 260px;\n  }\n\n  .hero--image .hero__title {\n    font-size: 1.4rem;\n  }\n\n  .applications__tabs {\n    flex-direction: column;\n  }\n\n  .applications__tab {\n    width: 100%;\n    text-align: center;\n  }\n\n  .cta-section__actions {\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .btn {\n    width: 100%;\n    justify-content: center;\n  }\n}\n\n</style>\n<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/stagefilmtvprod2.jpeg\" alt=\"Stage, film and TV production plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-sets\" id=\"tab-sets\">Sets &amp; Props</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-lighting\" id=\"tab-lighting\">Lighting &amp; Effects</button>\n          </div>\n\n          <!-- Panel: Sets & Props -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-sets\" aria-labelledby=\"tab-sets\">\n            <ul class=\"applications__list\">\n              <li>Scenic flats, backdrops, and false walls</li>\n              <li>Lightweight prop replicas and hero props</li>\n              <li>Faux glass and breakaway panels for stunts</li>\n              <li>Architectural columns, moldings, and period details</li>\n              <li>Vacuum-formed terrain, vehicles, and furniture</li>\n              <li>CNC-routed dimensional logos and set dressing</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Lighting & Effects -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-lighting\" aria-labelledby=\"tab-lighting\">\n            <ul class=\"applications__list\">\n              <li>Light diffusion panels and custom gel frames</li>\n              <li>LED-backlit translucent walls and signage</li>\n              <li>Mirror and reflective surfaces for special effects</li>\n              <li>Colored transparent sheets for mood lighting</li>\n              <li>Projection screens and rear-projection surfaces</li>\n              <li>Protective shields and blast screens for pyrotechnics</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -88,19 +133,26 @@
       "isInner": false
     },
     {
-      "id": "f6a7b8c",
+      "id": "f6b64b4",
       "elType": "container",
       "settings": {
         "content_width": "full",
-        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
       },
       "elements": [
         {
-          "id": "a7b8c9d",
+          "id": "bda82b3",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<style>\n.materials{background:#fff;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.materials .section-header{text-align:center;padding:56px 40px 36px}\n.materials .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.materials .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.materials .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.materials .mat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid #E2E8F0}\n.materials .mat-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:40px 24px;border-bottom:1px solid #E2E8F0;border-right:1px solid #E2E8F0;transition:background .25s}\n.materials .mat-card:nth-child(4n){border-right:none}\n.materials .mat-card:hover{background:#F7F8FA}\n.materials .mat-icon{width:48px;height:48px;margin-bottom:18px;display:flex;align-items:center;justify-content:center}\n.materials .mat-icon svg{width:36px;height:36px;stroke:#1B365D;stroke-width:1.5;fill:none}\n.materials .mat-name{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}\n.materials .mat-desc{font-family:'Lora',serif;font-size:.88rem;color:#64748B;line-height:1.6}\n@media(max-width:1024px){.materials .mat-grid{grid-template-columns:repeat(2,1fr)}.materials .mat-card:nth-child(4n){border-right:1px solid #E2E8F0}.materials .mat-card:nth-child(2n){border-right:none}}\n@media(max-width:600px){.materials .mat-grid{grid-template-columns:1fr}.materials .mat-card{border-right:none}}\n</style>\n<section class=\"materials\" id=\"materials\">\n  <div class=\"section-header\">\n    <h2>Materials</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Production-grade plastics chosen for workability, safety, and visual impact.</p>\n  </div>\n  <div class=\"mat-grid\">\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"4\" y=\"4\" width=\"28\" height=\"28\" rx=\"2\"/><line x1=\"4\" y1=\"18\" x2=\"32\" y2=\"18\"/><line x1=\"18\" y1=\"4\" x2=\"18\" y2=\"32\"/></svg></div>\n      <div class=\"mat-name\">Acrylic (PMMA)</div>\n      <div class=\"mat-desc\">Crystal-clear sheets for faux glass, display cases, and LED-backlit panels.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><circle cx=\"18\" cy=\"18\" r=\"13\"/><path d=\"M18 5v26M5 18h26\"/></svg></div>\n      <div class=\"mat-name\">Polycarbonate (PC)</div>\n      <div class=\"mat-desc\">Impact-resistant sheets for breakaway windows, shields, and stunt-safe panels.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><polygon points=\"18,3 33,28 3,28\"/><line x1=\"18\" y1=\"12\" x2=\"18\" y2=\"21\"/><circle cx=\"18\" cy=\"24\" r=\"1\"/></svg></div>\n      <div class=\"mat-name\">ABS</div>\n      <div class=\"mat-desc\">Tough, paintable sheets ideal for vacuum-formed props, helmets, and armor.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"6\" y=\"14\" width=\"24\" height=\"10\" rx=\"2\"/><path d=\"M12 14V8a6 6 0 0 1 12 0v6\"/></svg></div>\n      <div class=\"mat-name\">Expanded PVC (Foam Board)</div>\n      <div class=\"mat-desc\">Ultra-light rigid sheets for scenic flats, set walls, and dimensional signage.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><path d=\"M6 28 Q18 4 30 28\" fill=\"none\"/><line x1=\"10\" y1=\"20\" x2=\"26\" y2=\"20\"/></svg></div>\n      <div class=\"mat-name\">Polystyrene (PS)</div>\n      <div class=\"mat-desc\">Economical sheets for quick-build flats, light diffusers, and disposable props.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><ellipse cx=\"18\" cy=\"18\" rx=\"14\" ry=\"8\"/><line x1=\"18\" y1=\"10\" x2=\"18\" y2=\"26\"/></svg></div>\n      <div class=\"mat-name\">HDPE</div>\n      <div class=\"mat-desc\">Chemical-resistant, durable sheets for outdoor sets, ramps, and work surfaces.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><path d=\"M8 28V8h8l4 8-4 8h8\" fill=\"none\"/></svg></div>\n      <div class=\"mat-name\">PETG</div>\n      <div class=\"mat-desc\">Thermoformable, shatter-resistant sheets for face shields, visors, and clear props.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"4\" y=\"4\" width=\"28\" height=\"28\" rx=\"6\"/><circle cx=\"18\" cy=\"18\" r=\"6\"/></svg></div>\n      <div class=\"mat-name\">PVC (Rigid)</div>\n      <div class=\"mat-desc\">Weather-resistant sheets for outdoor stages, rain covers, and protective barriers.</div>\n    </div>\n  </div>\n</section>"
+            "html": "<section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>Production-grade plastics chosen for workability, safety, and visual impact</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acrylic (PMMA)</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">Expanded PVC (Foam Board)</span>\n      <span class=\"material-tag\">Polystyrene (PS)</span>\n      <span class=\"material-tag\">HDPE</span>\n      <span class=\"material-tag\">PETG</span>\n      <span class=\"material-tag\">PVC &mdash; Rigid</span>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -108,19 +160,26 @@
       "isInner": false
     },
     {
-      "id": "b8c9d0e",
+      "id": "e961e0e",
       "elType": "container",
       "settings": {
         "content_width": "full",
-        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
       },
       "elements": [
         {
-          "id": "c9d0e1f",
+          "id": "02ed2a9",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<style>\n.advantages{background:#F7F8FA;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.advantages .section-header{text-align:center;padding:56px 40px 36px}\n.advantages .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.advantages .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.advantages .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.advantages .adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;padding:0 48px 64px;max-width:1120px;margin:0 auto}\n.advantages .adv-card{background:#fff;border-radius:6px;padding:36px 30px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.06);transition:transform .25s,box-shadow .25s}\n.advantages .adv-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.1)}\n.advantages .adv-icon{width:52px;height:52px;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;background:#EEF2F7;border-radius:50%}\n.advantages .adv-icon svg{width:26px;height:26px;stroke:#1B365D;stroke-width:1.5;fill:none}\n.advantages .adv-title{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px}\n.advantages .adv-desc{font-family:'Lora',serif;font-size:.92rem;color:#64748B;line-height:1.65}\n@media(max-width:768px){.advantages .adv-grid{grid-template-columns:1fr;padding:0 24px 48px}}\n</style>\n<section class=\"advantages\" id=\"advantages\">\n  <div class=\"section-header\">\n    <h2>Why Plastic-Craft</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Built for the pace and precision the entertainment industry demands.</p>\n  </div>\n  <div class=\"adv-grid\">\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><circle cx=\"13\" cy=\"13\" r=\"10\"/><path d=\"M13 7v6l4 3\"/></svg></div>\n      <div class=\"adv-title\">Fast Turnaround</div>\n      <div class=\"adv-desc\">Rush orders and same-day cutting keep your production on schedule when deadlines are tight.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><rect x=\"3\" y=\"3\" width=\"20\" height=\"20\" rx=\"2\"/><path d=\"M3 13h20\"/></svg></div>\n      <div class=\"adv-title\">Custom Cut-to-Size</div>\n      <div class=\"adv-desc\">Sheets, rods, and tubes cut to your exact dimensions\u2014no waste, no delays on set.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M13 3l3 7h7l-5.5 4.5 2 7L13 17l-6.5 4.5 2-7L3 10h7z\"/></svg></div>\n      <div class=\"adv-title\">Optical Clarity</div>\n      <div class=\"adv-desc\">Crystal-clear acrylic and polycarbonate for camera-ready surfaces and on-screen realism.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M4 20V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14\"/><path d=\"M4 20h18\"/><circle cx=\"9\" cy=\"12\" r=\"3\"/></svg></div>\n      <div class=\"adv-title\">Lightweight & Durable</div>\n      <div class=\"adv-desc\">Easy to transport and rig on set while standing up to the demands of multi-day shoots.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M5 13a8 8 0 0 1 16 0\"/><circle cx=\"13\" cy=\"13\" r=\"3\"/><line x1=\"13\" y1=\"16\" x2=\"13\" y2=\"23\"/></svg></div>\n      <div class=\"adv-title\">Design Flexibility</div>\n      <div class=\"adv-desc\">Thermoformable, CNC-machinable, and paintable materials for any creative vision.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M12 3v4M4.93 6.93l2.83 2.83M3 14h4M4.93 21.07l2.83-2.83M12 25v-4M19.07 21.07l-2.83-2.83M21 14h4M19.07 6.93l-2.83 2.83\"/></svg></div>\n      <div class=\"adv-title\">Safety Rated</div>\n      <div class=\"adv-desc\">Breakaway-safe, fire-retardant, and UV-stable options for stunts, pyro, and outdoor stages.</div>\n    </div>\n  </div>\n</section>\n<script>\ndocument.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.tab-btn').forEach(function(btn){btn.addEventListener('click',function(){var t=this.getAttribute('data-tab');this.closest('.app-content').querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active')});this.classList.add('active');this.closest('.app-content').querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active')});document.getElementById(t).classList.add('active')})})});\n</script>"
+            "html": "<section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Built for the pace and precision the entertainment industry demands</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <!-- Card 1 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/></svg>\n            </div>\n            <h3>Fast Turnaround</h3>\n            <p>Rush orders and same-day cutting keep your production on schedule when deadlines are tight.</p>\n          </div>\n\n          <!-- Card 2 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/></svg>\n            </div>\n            <h3>Custom Cut-to-Size</h3>\n            <p>Sheets, rods, and tubes cut to your exact dimensions\u2014no waste, no delays on set.</p>\n          </div>\n\n          <!-- Card 3 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n            </div>\n            <h3>Optical Clarity</h3>\n            <p>Crystal-clear acrylic and polycarbonate for camera-ready surfaces and on-screen realism.</p>\n          </div>\n\n          <!-- Card 4 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight &amp; Durable</h3>\n            <p>Easy to transport and rig on set while standing up to the demands of multi-day shoots.</p>\n          </div>\n\n          <!-- Card 5 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z\"/><path d=\"M2 12h20\"/><path d=\"M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>\n            </div>\n            <h3>Design Flexibility</h3>\n            <p>Thermoformable, CNC-machinable, and paintable materials for any creative vision.</p>\n          </div>\n\n          <!-- Card 6 -->\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Safety Rated</h3>\n            <p>Breakaway-safe, fire-retardant, and UV-stable options for stunts, pyro, and outdoor stages.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <!-- Carousel Dots -->\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n\n    </div>\n  </section>\n<script>\n/* ============================================================\n   Plastic-Craft Industries \u2014 Page Interactivity\n   Tabs, Carousel, Mobile Nav\n   ============================================================ */\n\n(function () {\n  'use strict';\n\n  /* ----------------------------------------------------------\n     APPLICATION TABS\n     ---------------------------------------------------------- */\n  const tabs = document.querySelectorAll('.applications__tab');\n  const panels = document.querySelectorAll('.applications__panel');\n\n  tabs.forEach(function (tab) {\n    tab.addEventListener('click', function () {\n      // Deactivate all\n      tabs.forEach(function (t) {\n        t.classList.remove('active');\n        t.setAttribute('aria-selected', 'false');\n      });\n      panels.forEach(function (p) {\n        p.classList.remove('active');\n      });\n\n      // Activate clicked\n      tab.classList.add('active');\n      tab.setAttribute('aria-selected', 'true');\n\n      var targetId = tab.getAttribute('aria-controls');\n      var target = document.getElementById(targetId);\n      if (target) {\n        target.classList.add('active');\n      }\n    });\n  });\n\n  /* ----------------------------------------------------------\n     ADVANTAGES CAROUSEL\n     ---------------------------------------------------------- */\n  var track = document.getElementById('advantagesTrack');\n  var dotsContainer = document.getElementById('advantagesDots');\n  var prevBtn = document.querySelector('.advantages__arrow--prev');\n  var nextBtn = document.querySelector('.advantages__arrow--next');\n\n  if (track && dotsContainer) {\n    var cards = track.querySelectorAll('.advantage-card');\n    var totalCards = cards.length;\n    var currentPage = 0;\n\n    // Determine visible cards based on viewport\n    function getVisibleCount() {\n      if (window.innerWidth <= 768) return 1;\n      if (window.innerWidth <= 1024) return 2;\n      return 3;\n    }\n\n    function getTotalPages() {\n      var visible = getVisibleCount();\n      return Math.ceil(totalCards / visible);\n    }\n\n    // Build dots\n    function buildDots() {\n      dotsContainer.innerHTML = '';\n      var pages = getTotalPages();\n      for (var i = 0; i < pages; i++) {\n        var dot = document.createElement('button');\n        dot.className = 'advantages__dot' + (i === currentPage ? ' active' : '');\n        dot.setAttribute('aria-label', 'Go to slide group ' + (i + 1));\n        dot.dataset.page = i;\n        dot.addEventListener('click', function () {\n          goToPage(parseInt(this.dataset.page, 10));\n        });\n        dotsContainer.appendChild(dot);\n      }\n    }\n\n    // Navigate to page\n    function goToPage(page) {\n      var pages = getTotalPages();\n      if (page < 0) page = pages - 1;\n      if (page >= pages) page = 0;\n      currentPage = page;\n\n      var visible = getVisibleCount();\n      var cardWidth = cards[0].offsetWidth;\n      var gap = parseInt(getComputedStyle(track).gap, 10) || 24;\n      var offset = currentPage * visible * (cardWidth + gap);\n\n      track.style.transform = 'translateX(-' + offset + 'px)';\n\n      // Update dots\n      var dots = dotsContainer.querySelectorAll('.advantages__dot');\n      dots.forEach(function (d, i) {\n        d.classList.toggle('active', i === currentPage);\n      });\n    }\n\n    // Arrow listeners\n    if (prevBtn) {\n      prevBtn.addEventListener('click', function () {\n        goToPage(currentPage - 1);\n      });\n    }\n    if (nextBtn) {\n      nextBtn.addEventListener('click', function () {\n        goToPage(currentPage + 1);\n      });\n    }\n\n    // Init\n    buildDots();\n    goToPage(0);\n\n    // Rebuild on resize\n    var resizeTimer;\n    window.addEventListener('resize', function () {\n      clearTimeout(resizeTimer);\n      resizeTimer = setTimeout(function () {\n        buildDots();\n        goToPage(0);\n      }, 200);\n    });\n  }\n\n  /* ----------------------------------------------------------\n     MOBILE NAV TOGGLE\n     ---------------------------------------------------------- */\n  var navToggle = document.querySelector('.nav-toggle');\n  var mainNav = document.getElementById('mainNav');\n\n  if (navToggle && mainNav) {\n    navToggle.addEventListener('click', function () {\n      var isOpen = mainNav.classList.toggle('open');\n      navToggle.setAttribute('aria-expanded', isOpen);\n    });\n  }\n\n})();\n\n</script>"
           },
           "elements": []
         }
@@ -128,23 +187,40 @@
       "isInner": false
     },
     {
-      "id": "d0e1f2a",
+      "id": "4d11d0f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
-        "boxed_width": { "unit": "px", "size": 600 },
+        "boxed_width": {
+          "unit": "px",
+          "size": 600
+        },
         "flex_direction": "column",
         "flex_align_items": "center",
         "background_background": "classic",
         "background_color": "#F5F6F8",
-        "padding": { "unit": "px", "top": "64", "right": "40", "bottom": "64", "left": "40", "isLinked": false },
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
         "border_border": "solid",
-        "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
         "border_color": "#E2E8F0"
       },
       "elements": [
         {
-          "id": "e1f2a3b",
+          "id": "d24182a",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -154,15 +230,21 @@
             "title_color": "#1B365D",
             "typography_typography": "custom",
             "typography_font_family": "Montserrat",
-            "typography_font_size": { "unit": "rem", "size": 1.6 },
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1.6
+            },
             "typography_font_weight": "700",
             "typography_text_transform": "uppercase",
-            "typography_letter_spacing": { "unit": "px", "size": 2 }
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            }
           },
           "elements": []
         },
         {
-          "id": "f2a3b4c",
+          "id": "050e8bc",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -172,23 +254,47 @@
           "elements": []
         },
         {
-          "id": "a3b4c5d",
+          "id": "8995d78",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
             "text": "GET A QUOTE",
-            "link": { "url": "/request-a-quote/", "is_external": false, "nofollow": false },
+            "link": {
+              "url": "/request-a-quote/",
+              "is_external": false,
+              "nofollow": false
+            },
             "align": "center",
             "typography_typography": "custom",
             "typography_font_family": "Montserrat",
-            "typography_font_size": { "unit": "rem", "size": 0.8 },
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.8
+            },
             "typography_font_weight": "700",
-            "typography_letter_spacing": { "unit": "px", "size": 2 },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            },
             "typography_text_transform": "uppercase",
             "background_color": "#1B365D",
             "button_text_color": "#FFFFFF",
-            "border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true },
-            "button_padding": { "unit": "px", "top": "16", "right": "36", "bottom": "16", "left": "36", "isLinked": false },
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36",
+              "isLinked": false
+            },
             "hover_color": "#FFFFFF",
             "button_background_hover_color": "#2A4A7A"
           },
@@ -198,7 +304,9 @@
       "isInner": false
     }
   ],
-  "page_settings": { "template": "elementor_header_footer" },
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
   "version": "0.4",
   "title": "Stage, Film & TV Production",
   "type": "page"
