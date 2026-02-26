@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Agriculture",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "bce4e52",
+      "id": "800e8ae",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "3c5701d",
+          "id": "35036f0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "50eef50",
+      "id": "5f7deb6",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "d4afc20",
+          "id": "f64565c",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "5b2366d",
+      "id": "373e52c",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "ac34dd8",
+          "id": "bf45b2c",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/agriculture2.jpeg\" alt=\"Agriculture and farming plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-farming\" id=\"tab-farming\">Farming &amp; Irrigation</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-structures\" id=\"tab-structures\">Structures &amp; Storage</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-farming\" aria-labelledby=\"tab-farming\">\n            <ul class=\"applications__list\">\n              <li>Irrigation pipes, valves, and nozzles</li>\n              <li>Livestock and poultry feeders, bins, and drinking systems</li>\n              <li>Harvesting and planting equipment: seed boxes, bearings, slide pads</li>\n              <li>Augers, chutes, skid plates, and liners</li>\n              <li>Spray system seals and bearings</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-structures\" aria-labelledby=\"tab-structures\">\n            <ul class=\"applications__list\">\n              <li>Greenhouse panels, skylights, and roofing</li>\n              <li>Storage tanks, hoppers, and bins</li>\n              <li>Barn partitions, skylights, and roofing systems</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Agriculture and farming plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-farming\" id=\"tab-farming\">Farming &amp; Irrigation</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-structures\" id=\"tab-structures\">Structures &amp; Storage</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-farming\" aria-labelledby=\"tab-farming\">\n            <ul class=\"applications__list\">\n              <li>Irrigation pipes, valves, and nozzles</li>\n              <li>Livestock and poultry feeders, bins, and drinking systems</li>\n              <li>Harvesting and planting equipment: seed boxes, bearings, slide pads</li>\n              <li>Augers, chutes, skid plates, and liners</li>\n              <li>Spray system seals and bearings</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-structures\" aria-labelledby=\"tab-structures\">\n            <ul class=\"applications__list\">\n              <li>Greenhouse panels, skylights, and roofing</li>\n              <li>Storage tanks, hoppers, and bins</li>\n              <li>Barn partitions, skylights, and roofing systems</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "f1c59ce",
+      "id": "fe0b6cd",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "058eb72",
+          "id": "dca4df2",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "ae7d1ff",
+      "id": "666e61e",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "5602569",
+          "id": "5c7f515",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "ed6094f",
+      "id": "48a6b1f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "8e3eb48",
+          "id": "b44b1ab",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "30da346",
+          "id": "a4e1505",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "05e6fd6",
+          "id": "12db1e2",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Agriculture",
+  "type": "page"
 }

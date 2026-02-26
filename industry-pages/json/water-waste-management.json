@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Water & Waste Management",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "2b24ed8",
+      "id": "e13c165",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "435e84f",
+          "id": "3a93f98",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "54c35bb",
+      "id": "a74d528",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "fafe93c",
+          "id": "a8b9c88",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "28eb079",
+      "id": "d45669f",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "b0206f5",
+          "id": "4881c62",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/water2.jpeg\" alt=\"Water and waste management plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-potable\" id=\"tab-potable\">Potable &amp; Distribution</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-treatment\" id=\"tab-treatment\">Treatment &amp; Reclamation</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-potable\" aria-labelledby=\"tab-potable\">\n            <ul class=\"applications__list\">\n              <li>Potable water pipes, pumps, and valves</li>\n              <li>Irrigation systems and aquaculture equipment</li>\n              <li>Hot and cold water distribution systems</li>\n              <li>Plumbing pipes and fittings</li>\n              <li>Double-contained piping systems</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-treatment\" aria-labelledby=\"tab-treatment\">\n            <ul class=\"applications__list\">\n              <li>Sewage treatment paddles, chains, and guides</li>\n              <li>Desalination plant systems</li>\n              <li>Reclamation and wastewater piping</li>\n              <li>Submerged installations and marine water systems</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Water and waste management plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-potable\" id=\"tab-potable\">Potable &amp; Distribution</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-treatment\" id=\"tab-treatment\">Treatment &amp; Reclamation</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-potable\" aria-labelledby=\"tab-potable\">\n            <ul class=\"applications__list\">\n              <li>Potable water pipes, pumps, and valves</li>\n              <li>Irrigation systems and aquaculture equipment</li>\n              <li>Hot and cold water distribution systems</li>\n              <li>Plumbing pipes and fittings</li>\n              <li>Double-contained piping systems</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-treatment\" aria-labelledby=\"tab-treatment\">\n            <ul class=\"applications__list\">\n              <li>Sewage treatment paddles, chains, and guides</li>\n              <li>Desalination plant systems</li>\n              <li>Reclamation and wastewater piping</li>\n              <li>Submerged installations and marine water systems</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "0896fa8",
+      "id": "172c490",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "a77ed03",
+          "id": "2607df5",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "cb473e8",
+      "id": "ade022d",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "d4ae277",
+          "id": "a835de7",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "d7fcdf7",
+      "id": "d533acb",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "ee5e946",
+          "id": "69414c0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "7549870",
+          "id": "2fc82cc",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "7119db9",
+          "id": "1cbc2b5",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Water & Waste Management",
+  "type": "page"
 }

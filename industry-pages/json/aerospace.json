@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Aerospace",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "0b8c508",
+      "id": "610bf3d",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "c85045e",
+          "id": "3758d92",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "8fa5df7",
+      "id": "9292a7f",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "2def674",
+          "id": "9740b3a",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "712899f",
+      "id": "484ad3e",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "853cf92",
+          "id": "cadf7a6",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/aerospace2.jpeg\" alt=\"Aerospace plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-structural\" id=\"tab-structural\">Structural &amp; Exterior</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-interior\" id=\"tab-interior\">Interior &amp; Systems</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-structural\" aria-labelledby=\"tab-structural\">\n            <ul class=\"applications__list\">\n              <li>Aircraft landing gear components</li>\n              <li>Transparent windows, canopies, and dust covers</li>\n              <li>Fasteners, seals, bushings, and bearings</li>\n              <li>Mirrors and dust covers</li>\n              <li>Electrical and thermal insulators</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-interior\" aria-labelledby=\"tab-interior\">\n            <ul class=\"applications__list\">\n              <li>Interior wall panels and luggage compartments</li>\n              <li>Ventilation ducting and collapsible ribs</li>\n              <li>Food trays and tray tables</li>\n              <li>Pipes, tubing, and wiring conduits</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Aerospace plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-structural\" id=\"tab-structural\">Structural &amp; Exterior</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-interior\" id=\"tab-interior\">Interior &amp; Systems</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-structural\" aria-labelledby=\"tab-structural\">\n            <ul class=\"applications__list\">\n              <li>Aircraft landing gear components</li>\n              <li>Transparent windows, canopies, and dust covers</li>\n              <li>Fasteners, seals, bushings, and bearings</li>\n              <li>Mirrors and dust covers</li>\n              <li>Electrical and thermal insulators</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-interior\" aria-labelledby=\"tab-interior\">\n            <ul class=\"applications__list\">\n              <li>Interior wall panels and luggage compartments</li>\n              <li>Ventilation ducting and collapsible ribs</li>\n              <li>Food trays and tray tables</li>\n              <li>Pipes, tubing, and wiring conduits</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "688957b",
+      "id": "6dd6e31",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "5fddc43",
+          "id": "e0f4158",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "ea074d5",
+      "id": "e490940",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "a570616",
+          "id": "aa5182e",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "db6d144",
+      "id": "0c1300c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "e089822",
+          "id": "e8cf8e2",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "b5555bf",
+          "id": "fe88080",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "9ec75f8",
+          "id": "1623fe9",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Aerospace",
+  "type": "page"
 }

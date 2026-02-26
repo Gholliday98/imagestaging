@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Lighting",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "d83fdcb",
+      "id": "471691c",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "a1aa168",
+          "id": "0d9fdbe",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "7bdcbf8",
+      "id": "6fd264d",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "0751dce",
+          "id": "b6420bd",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "378efee",
+      "id": "9b942f3",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "8324e1e",
+          "id": "2a4156c",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/lighting2.jpeg\" alt=\"Lighting system plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-optical\" id=\"tab-optical\">Optical Components</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-fixtures\" id=\"tab-fixtures\">Fixtures &amp; Enclosures</button>\n          </div>\n\n          <!-- Panel: Optical Components -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-optical\" aria-labelledby=\"tab-optical\">\n            <ul class=\"applications__list\">\n              <li>LED housings and light fixtures</li>\n              <li>Optical lenses and reflectors</li>\n              <li>Light diffusers and louvers</li>\n              <li>Automotive headlight and taillight covers</li>\n              <li>Safety shields and protective lenses</li>\n              <li>Transparent enclosures for electronics and lighting</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Fixtures & Enclosures -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-fixtures\" aria-labelledby=\"tab-fixtures\">\n            <ul class=\"applications__list\">\n              <li>Streetlight and outdoor enclosures</li>\n              <li>Industrial lighting housings and panels</li>\n              <li>Architectural lighting systems</li>\n              <li>Retail display lighting and illuminated signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Lighting system plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-optical\" id=\"tab-optical\">Optical Components</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-fixtures\" id=\"tab-fixtures\">Fixtures &amp; Enclosures</button>\n          </div>\n\n          <!-- Panel: Optical Components -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-optical\" aria-labelledby=\"tab-optical\">\n            <ul class=\"applications__list\">\n              <li>LED housings and light fixtures</li>\n              <li>Optical lenses and reflectors</li>\n              <li>Light diffusers and louvers</li>\n              <li>Automotive headlight and taillight covers</li>\n              <li>Safety shields and protective lenses</li>\n              <li>Transparent enclosures for electronics and lighting</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Fixtures & Enclosures -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-fixtures\" aria-labelledby=\"tab-fixtures\">\n            <ul class=\"applications__list\">\n              <li>Streetlight and outdoor enclosures</li>\n              <li>Industrial lighting housings and panels</li>\n              <li>Architectural lighting systems</li>\n              <li>Retail display lighting and illuminated signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "69fbf81",
+      "id": "ab624ac",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "0be04dc",
+          "id": "7b69550",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "8400270",
+      "id": "aa4acf3",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "8433299",
+          "id": "ffdc1a4",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "1dc1a4d",
+      "id": "8b27615",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "f27b071",
+          "id": "fa71ace",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "3784262",
+          "id": "902e667",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "e7b8bd2",
+          "id": "5715ca5",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Lighting",
+  "type": "page"
 }

@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Automotive & Transportation",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "5587d9b",
+      "id": "ecfab39",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "38b98b9",
+          "id": "14a86a1",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "dee5794",
+      "id": "98bd269",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "68546ce",
+          "id": "ce6db64",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "89254f3",
+      "id": "0459631",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "50b698d",
+          "id": "c2d0494",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/automotivetransportation2.jpeg\" alt=\"Automotive and transportation plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-auto\" id=\"tab-auto\">Automotive</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-transit\" id=\"tab-transit\">Transit &amp; Commercial</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-auto\" aria-labelledby=\"tab-auto\">\n            <ul class=\"applications__list\">\n              <li>Powertrain and transmission parts</li>\n              <li>Bearings, bushings, and gears</li>\n              <li>Wheel well liners, trunk liners, and bed liners</li>\n              <li>Dashboard and interior panels</li>\n              <li>EV charging stations and housings</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-transit\" aria-labelledby=\"tab-transit\">\n            <ul class=\"applications__list\">\n              <li>Truck liners, wear pads, and protective shields</li>\n              <li>Bus and railcar glazing, wall panels, and seating components</li>\n              <li>RV body panels, wear pads, and windshields</li>\n              <li>Marine panels, decking, and seals</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Automotive and transportation plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-auto\" id=\"tab-auto\">Automotive</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-transit\" id=\"tab-transit\">Transit &amp; Commercial</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-auto\" aria-labelledby=\"tab-auto\">\n            <ul class=\"applications__list\">\n              <li>Powertrain and transmission parts</li>\n              <li>Bearings, bushings, and gears</li>\n              <li>Wheel well liners, trunk liners, and bed liners</li>\n              <li>Dashboard and interior panels</li>\n              <li>EV charging stations and housings</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-transit\" aria-labelledby=\"tab-transit\">\n            <ul class=\"applications__list\">\n              <li>Truck liners, wear pads, and protective shields</li>\n              <li>Bus and railcar glazing, wall panels, and seating components</li>\n              <li>RV body panels, wear pads, and windshields</li>\n              <li>Marine panels, decking, and seals</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "39aab52",
+      "id": "74e4ee3",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "088c649",
+          "id": "d876b5c",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "d4463cc",
+      "id": "1aa49b3",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "6235386",
+          "id": "cae6c92",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "ce00138",
+      "id": "10ba1ea",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "4fb3948",
+          "id": "7c39a73",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "24906f7",
+          "id": "cc997d9",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "cd2a8b8",
+          "id": "fabad8d",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Automotive & Transportation",
+  "type": "page"
 }

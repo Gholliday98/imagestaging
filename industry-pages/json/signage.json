@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Signage",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "98ac21c",
+      "id": "5c911b2",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "6e97e59",
+          "id": "7210eb0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "7ef08aa",
+      "id": "3725331",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "2c20d53",
+          "id": "81395a4",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "b040f31",
+      "id": "46f4800",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,7 +121,7 @@
       },
       "elements": [
         {
-          "id": "22c5043",
+          "id": "1f19fb0",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "7370761",
+      "id": "49c3da5",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "d86aedd",
+          "id": "dc5f3b9",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "ed9acba",
+      "id": "040fc0f",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "ce835bb",
+          "id": "ddfa07e",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "805729e",
+      "id": "57915ae",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "eeab080",
+          "id": "25938d0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "0bc432e",
+          "id": "c7548ec",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "4147d54",
+          "id": "5d9dbbe",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Signage",
+  "type": "page"
 }

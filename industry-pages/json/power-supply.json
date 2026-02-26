@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Power Supply",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "ee087da",
+      "id": "32ecd43",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "6602652",
+          "id": "4ed3e50",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "526889c",
+      "id": "55a1d05",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "ee35106",
+          "id": "fe6f6e6",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "cad46d3",
+      "id": "2ff8591",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "b8246e1",
+          "id": "9b4aa3a",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/powersupply2.jpeg\" alt=\"Power supply and electrical plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-electrical\" id=\"tab-electrical\">Electrical Systems</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-renewable\" id=\"tab-renewable\">Renewable Energy</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-electrical\" aria-labelledby=\"tab-electrical\">\n            <ul class=\"applications__list\">\n              <li>Wire and cable insulation</li>\n              <li>Plenum-rated cable jacketing</li>\n              <li>Circuit boards and wiring boards</li>\n              <li>Connectors for data, automotive, and telecom</li>\n              <li>High-voltage breaker housings</li>\n              <li>Aircraft electrical insulators</li>\n              <li>Radar lenses and test sockets</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-renewable\" aria-labelledby=\"tab-renewable\">\n            <ul class=\"applications__list\">\n              <li>Solar array pivot bearings and housings</li>\n              <li>Wind turbine bearings and structural components</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Power supply and electrical plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-electrical\" id=\"tab-electrical\">Electrical Systems</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-renewable\" id=\"tab-renewable\">Renewable Energy</button>\n          </div>\n\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-electrical\" aria-labelledby=\"tab-electrical\">\n            <ul class=\"applications__list\">\n              <li>Wire and cable insulation</li>\n              <li>Plenum-rated cable jacketing</li>\n              <li>Circuit boards and wiring boards</li>\n              <li>Connectors for data, automotive, and telecom</li>\n              <li>High-voltage breaker housings</li>\n              <li>Aircraft electrical insulators</li>\n              <li>Radar lenses and test sockets</li>\n            </ul>\n          </div>\n\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-renewable\" aria-labelledby=\"tab-renewable\">\n            <ul class=\"applications__list\">\n              <li>Solar array pivot bearings and housings</li>\n              <li>Wind turbine bearings and structural components</li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "4c60c0e",
+      "id": "aeb5cc0",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "fceed29",
+          "id": "e4f7678",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "7c6c7b3",
+      "id": "dc2736d",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "922b536",
+          "id": "c029ac1",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "125d2fa",
+      "id": "ecfb277",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "77c9332",
+          "id": "24fd03e",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "8f1b507",
+          "id": "f4bc3a3",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "72ea221",
+          "id": "5a9ae0c",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Power Supply",
+  "type": "page"
 }

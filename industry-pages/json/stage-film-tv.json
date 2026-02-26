@@ -1,13 +1,7 @@
 {
-  "version": "0.4",
-  "title": "Stage, Film & TV",
-  "type": "page",
-  "page_settings": {
-    "template": "elementor_header_footer"
-  },
   "content": [
     {
-      "id": "9cbfef3",
+      "id": "6854147",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -45,7 +39,7 @@
       },
       "elements": [
         {
-          "id": "b0c26fb",
+          "id": "de209c0",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -78,7 +72,7 @@
       "isInner": false
     },
     {
-      "id": "28c8a23",
+      "id": "50c497a",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -99,7 +93,7 @@
       },
       "elements": [
         {
-          "id": "d101651",
+          "id": "14c4713",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -112,7 +106,7 @@
       "isInner": false
     },
     {
-      "id": "02ce467",
+      "id": "f678f16",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -127,11 +121,11 @@
       },
       "elements": [
         {
-          "id": "60aea95",
+          "id": "62978d9",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
-            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/stagefilmtvprod2.jpeg\" alt=\"Stage, film, and TV set design plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-set\" id=\"tab-set\">Set Design &amp; Props</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-signage\" id=\"tab-signage\">Signage &amp; Displays</button>\n          </div>\n\n          <!-- Panel: Set Design & Props -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-set\" aria-labelledby=\"tab-set\">\n            <ul class=\"applications__list\">\n              <li>Custom fabricated set pieces</li>\n              <li>Optically clear materials</li>\n              <li>Detailed prop creation</li>\n              <li>Wall-mounted signs</li>\n              <li>Channel letters</li>\n              <li>Banners</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Signage & Displays -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-signage\" aria-labelledby=\"tab-signage\">\n            <ul class=\"applications__list\">\n              <li>Outdoor signage</li>\n              <li>Backlit / Electrical signs (LEDs)</li>\n              <li>Touch / Interactive signs</li>\n              <li>Sign boards (Menus)</li>\n              <li>Advertising (Indoor &amp; Outdoor)</li>\n              <li>Bus signs</li>\n              <li>Video walls</li>\n              <li>Digital signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Stage, film, and TV set design plastics\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-set\" id=\"tab-set\">Set Design &amp; Props</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-signage\" id=\"tab-signage\">Signage &amp; Displays</button>\n          </div>\n\n          <!-- Panel: Set Design & Props -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-set\" aria-labelledby=\"tab-set\">\n            <ul class=\"applications__list\">\n              <li>Custom fabricated set pieces</li>\n              <li>Optically clear materials</li>\n              <li>Detailed prop creation</li>\n              <li>Wall-mounted signs</li>\n              <li>Channel letters</li>\n              <li>Banners</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Signage & Displays -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-signage\" aria-labelledby=\"tab-signage\">\n            <ul class=\"applications__list\">\n              <li>Outdoor signage</li>\n              <li>Backlit / Electrical signs (LEDs)</li>\n              <li>Touch / Interactive signs</li>\n              <li>Sign boards (Menus)</li>\n              <li>Advertising (Indoor &amp; Outdoor)</li>\n              <li>Bus signs</li>\n              <li>Video walls</li>\n              <li>Digital signage</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
           },
           "elements": []
         }
@@ -139,7 +133,7 @@
       "isInner": false
     },
     {
-      "id": "46ea2f5",
+      "id": "e49f9d0",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -154,7 +148,7 @@
       },
       "elements": [
         {
-          "id": "3bc8d00",
+          "id": "36b7f7b",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -166,7 +160,7 @@
       "isInner": false
     },
     {
-      "id": "ba0fe5f",
+      "id": "4d9de26",
       "elType": "container",
       "settings": {
         "content_width": "full",
@@ -181,7 +175,7 @@
       },
       "elements": [
         {
-          "id": "f66c750",
+          "id": "75ce78b",
           "elType": "widget",
           "widgetType": "html",
           "settings": {
@@ -193,7 +187,7 @@
       "isInner": false
     },
     {
-      "id": "2a5cc91",
+      "id": "aeba64c",
       "elType": "container",
       "settings": {
         "content_width": "boxed",
@@ -226,7 +220,7 @@
       },
       "elements": [
         {
-          "id": "ed88671",
+          "id": "aa81bb7",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -250,7 +244,7 @@
           "elements": []
         },
         {
-          "id": "09d45a8",
+          "id": "ebe8161",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -260,7 +254,7 @@
           "elements": []
         },
         {
-          "id": "b5e365d",
+          "id": "3c18024",
           "elType": "widget",
           "widgetType": "button",
           "settings": {
@@ -309,5 +303,11 @@
       ],
       "isInner": false
     }
-  ]
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "version": "0.4",
+  "title": "Stage, Film & TV",
+  "type": "page"
 }
