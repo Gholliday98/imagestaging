@@ -1,0 +1,313 @@
+{
+  "version": "0.4",
+  "title": "Retail Environments",
+  "type": "page",
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "content": [
+    {
+      "id": "a1b2c3d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "vw",
+          "size": 27.5
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_08.jpg",
+          "id": "",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.55)",
+        "background_overlay_color_b": "transparent",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": {
+          "unit": "deg",
+          "size": 90
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e4f5a6b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Retail Environments",
+            "header_size": "h1",
+            "align": "left",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 3
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 2,
+              "blur": 16,
+              "color": "rgba(0,0,0,0.6)"
+            }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "c7d8e9f",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 760
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "a0b1c2d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Plastic-Craft provides custom-fabricated plastic solutions for retail environments where presentation, durability, and brand impact are essential. From point-of-purchase displays to store fixtures and protective barriers, our plastics deliver the clarity, strength, and design flexibility that modern retail demands.</p><p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">Our in-house fabrication capabilities &mdash; including CNC machining, thermoforming, bending, polishing, and assembly &mdash; allow us to produce retail-ready components with fast turnaround and consistent quality. Whether you need a one-off prototype or a full production run, Plastic-Craft is your single-source partner for retail plastic solutions.</p>",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e3f4a5b",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "c6d7e8f",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"applications\" id=\"applications\">\n    <div class=\"container\">\n      <div class=\"applications__layout\">\n\n        <!-- Featured Image -->\n        <div class=\"applications__image\">\n          <!-- PLACEHOLDER: Replace src with your own image -->\n          <img src=\"\" alt=\"Retail environment plastics and displays\" loading=\"lazy\" style=\"background:#d0e9fd;min-height:480px;\">\n        </div>\n\n        <!-- Tabbed Application Lists -->\n        <div class=\"applications__body\">\n          <h2>Our Applications</h2>\n\n          <div class=\"applications__tabs\" role=\"tablist\">\n            <button class=\"applications__tab active\" role=\"tab\" aria-selected=\"true\" aria-controls=\"panel-displays\" id=\"tab-displays\">Displays &amp; Fixtures</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-barriers\" id=\"tab-barriers\">Barriers &amp; Protection</button>\n            <button class=\"applications__tab\" role=\"tab\" aria-selected=\"false\" aria-controls=\"panel-visual\" id=\"tab-visual\">Visual Merchandising</button>\n          </div>\n\n          <!-- Panel: Displays & Fixtures -->\n          <div class=\"applications__panel active\" role=\"tabpanel\" id=\"panel-displays\" aria-labelledby=\"tab-displays\">\n            <ul class=\"applications__list\">\n              <li>Point-of-Purchase (POP) Displays</li>\n              <li>Countertop Display Stands</li>\n              <li>Acrylic Shelving &amp; Shelf Dividers</li>\n              <li>Product Risers &amp; Pedestals</li>\n              <li>Brochure &amp; Literature Holders</li>\n              <li>Gondola End-Cap Displays</li>\n              <li>Modular Store Fixtures</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Barriers & Protection -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-barriers\" aria-labelledby=\"tab-barriers\">\n            <ul class=\"applications__list\">\n              <li>Checkout &amp; Cashier Barriers</li>\n              <li>Sneeze Guards &amp; Food Service Shields</li>\n              <li>Display Case Glazing</li>\n              <li>Anti-Theft Product Enclosures</li>\n              <li>Protective Counter Shields</li>\n              <li>Partition Walls &amp; Dividers</li>\n            </ul>\n          </div>\n\n          <!-- Panel: Visual Merchandising -->\n          <div class=\"applications__panel\" role=\"tabpanel\" id=\"panel-visual\" aria-labelledby=\"tab-visual\">\n            <ul class=\"applications__list\">\n              <li>Backlit Sign Panels &amp; Light Boxes</li>\n              <li>Window Display Components</li>\n              <li>Price Tag &amp; Label Holders</li>\n              <li>Custom Brand Displays</li>\n              <li>Promotional &amp; Seasonal Displays</li>\n              <li>Menu Boards &amp; Directory Signs</li>\n            </ul>\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "a9b0c1d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "e2f3a4b",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"materials\" id=\"materials\">\n    <div class=\"materials__banner\">\n      <div class=\"container\">\n        <h2>Our Materials</h2>\n        <p>Crystal-clear, durable plastics engineered for high-traffic retail environments</p>\n      </div>\n    </div>\n    <div class=\"materials__grid\">\n      <span class=\"material-tag\">Acrylic (PMMA)</span>\n      <span class=\"material-tag\">Polycarbonate (PC)</span>\n      <span class=\"material-tag\">PETG</span>\n      <span class=\"material-tag\">ABS</span>\n      <span class=\"material-tag\">Polypropylene (PP)</span>\n      <span class=\"material-tag\">Polystyrene (PS)</span>\n      <span class=\"material-tag\">PVC</span>\n      <span class=\"material-tag\">Polyethylene (PE)</span>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "c5d6e7f",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "a8b9c0d",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<section class=\"advantages\" id=\"advantages\">\n    <div class=\"container\">\n      <div class=\"advantages__header\">\n        <h2>Advantages of Using Plastic-Craft</h2>\n        <p>Retail-grade plastics with superior clarity, durability, and design flexibility</p>\n      </div>\n\n      <div class=\"advantages__carousel\">\n        <button class=\"advantages__arrow advantages__arrow--prev\" aria-label=\"Previous slide\">&larr;</button>\n        <button class=\"advantages__arrow advantages__arrow--next\" aria-label=\"Next slide\">&rarr;</button>\n\n        <div class=\"advantages__track\" id=\"advantagesTrack\">\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>\n            </div>\n            <h3>Optical Clarity</h3>\n            <p>Crystal-clear acrylic and polycarbonate with high light transmission for vibrant product presentation.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M13 2L3 14h9l-1 8 10-12h-9l1-8z\"/></svg>\n            </div>\n            <h3>Lightweight</h3>\n            <p>Lightweight materials for easy installation, repositioning, and shipping of retail displays.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg>\n            </div>\n            <h3>Impact Resistant</h3>\n            <p>Shatter-resistant options that withstand the demands of high-traffic retail environments.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M2 17l10 5 10-5\"/><path d=\"M2 12l10 5 10-5\"/><path d=\"M12 2L2 7l10 5 10-5L12 2z\"/></svg>\n            </div>\n            <h3>Design Flexibility</h3>\n            <p>Thermoformable, machinable, and available in a wide range of colors, finishes, and textures.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/></svg>\n            </div>\n            <h3>Easy to Fabricate</h3>\n            <p>CNC machined, laser cut, bent, polished, and assembled in-house for fast turnaround.</p>\n          </div>\n\n          <div class=\"advantage-card\">\n            <div class=\"advantage-card__icon\">\n              <svg viewBox=\"0 0 24 24\"><line x1=\"12\" y1=\"1\" x2=\"12\" y2=\"23\"/><path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\"/></svg>\n            </div>\n            <h3>Cost-Effective</h3>\n            <p>Affordable production from prototypes to full runs, with consistent quality at every volume.</p>\n          </div>\n\n        </div>\n      </div>\n\n      <div class=\"advantages__dots\" id=\"advantagesDots\"></div>\n    </div>\n  </section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "e1f2a3b",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 600
+        },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#F5F6F8",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "c4d5e6f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Get Started?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B365D",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 1.6
+            },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "a7b8c9d",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; color: #4A5568; text-align: center;\">Our team is ready to design and fabricate custom plastic solutions for your retail environment &mdash; from concept to finished product.</p>",
+            "align": "center"
+          },
+          "elements": []
+        },
+        {
+          "id": "e0f1a2b",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "GET A QUOTE",
+            "link": {
+              "url": "/request-a-quote/",
+              "is_external": false,
+              "nofollow": false
+            },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+              "unit": "rem",
+              "size": 0.8
+            },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2
+            },
+            "typography_text_transform": "uppercase",
+            "background_color": "#1B365D",
+            "button_text_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "16",
+              "right": "36",
+              "bottom": "16",
+              "left": "36",
+              "isLinked": false
+            },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#2A4A7A"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}
