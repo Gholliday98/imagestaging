@@ -1,0 +1,205 @@
+{
+  "content": [
+    {
+      "id": "a1b2c3d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "min_height": { "unit": "vw", "size": 27.5 },
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "flex-start",
+        "background_background": "classic",
+        "background_image": { "url": "https://plastic-craft.com/wp-content/uploads/2026/02/image_16.jpg", "id": "", "size": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "gradient",
+        "background_overlay_color": "rgba(0,0,0,0.55)",
+        "background_overlay_color_b": "transparent",
+        "background_overlay_gradient_type": "linear",
+        "background_overlay_gradient_angle": { "unit": "deg", "size": 90 },
+        "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "e4f5a6b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Stage, Film & TV Production",
+            "header_size": "h1",
+            "align": "left",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": { "unit": "rem", "size": 3 },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": { "unit": "px", "size": 3 },
+            "text_shadow_text_shadow": { "horizontal": 0, "vertical": 2, "blur": 16, "color": "rgba(0,0,0,0.6)" }
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "b2c3d4e",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 760 },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "padding": { "unit": "px", "top": "56", "right": "40", "bottom": "56", "left": "40", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "c3d4e5f",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.1rem; line-height: 1.85; color: #4A5568; text-align: center;\">From Broadway stages to Hollywood sound stages, plastic materials are essential for building sets, props, lighting diffusers, and special effects elements. Our sheets and rods are trusted by production designers, scenic shops, and prop houses for their workability, durability, and visual versatility.</p>",
+            "align": "center"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "d4e5f6a",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "e5f6a7b",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<style>\n.applications{background:#fff;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.applications .section-header{text-align:center;padding:56px 40px 32px}\n.applications .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.applications .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.applications .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.applications .app-showcase{display:flex;align-items:stretch;min-height:420px;background:#F7F8FA}\n.applications .app-image{flex:0 0 45%;position:relative;overflow:hidden}\n.applications .app-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}\n.applications .app-image:hover img{transform:scale(1.03)}\n.applications .app-content{flex:1;display:flex;flex-direction:column;justify-content:center;padding:48px 56px}\n.applications .tab-nav{display:flex;gap:0;margin-bottom:28px;border-bottom:2px solid #E2E8F0}\n.applications .tab-btn{font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#94A3B8;background:none;border:none;padding:10px 20px 12px;cursor:pointer;position:relative;transition:color .25s}\n.applications .tab-btn::after{content:'';position:absolute;left:0;right:0;bottom:-2px;height:2px;background:#1B365D;transform:scaleX(0);transition:transform .25s}\n.applications .tab-btn.active{color:#1B365D}\n.applications .tab-btn.active::after{transform:scaleX(1)}\n.applications .tab-btn:hover{color:#1B365D}\n.applications .tab-panel{display:none;animation:fadeTab .4s ease}\n.applications .tab-panel.active{display:block}\n@keyframes fadeTab{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}\n.applications .tab-panel h3{font-family:'Montserrat',sans-serif;font-size:.95rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin:0 0 14px}\n.applications .tab-panel ul{list-style:none;padding:0;margin:0}\n.applications .tab-panel li{position:relative;padding:6px 0 6px 20px;font-family:'Lora',serif;font-size:.97rem;color:#4A5568;line-height:1.65}\n.applications .tab-panel li::before{content:'';position:absolute;left:0;top:13px;width:7px;height:7px;background:#1B365D;border-radius:50%}\n@media(max-width:768px){.applications .app-showcase{flex-direction:column}.applications .app-image{flex:0 0 auto;height:260px}.applications .app-content{padding:32px 24px}.applications .tab-btn{font-size:.65rem;padding:8px 12px 10px}}\n</style>\n<section class=\"applications\" id=\"applications\">\n  <div class=\"section-header\">\n    <h2>Applications</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Versatile plastic solutions for every phase of production\u2014from concept to curtain call.</p>\n  </div>\n  <div class=\"app-showcase\">\n    <div class=\"app-image\">\n      <img src=\"https://plastic-craft.com/wp-content/uploads/2026/02/stagefilmtvproduction.jpeg\" alt=\"Stage, Film & TV Production applications\" loading=\"lazy\">\n    </div>\n    <div class=\"app-content\">\n      <div class=\"tab-nav\">\n        <button class=\"tab-btn active\" data-tab=\"sets-props\">Sets & Props</button>\n        <button class=\"tab-btn\" data-tab=\"lighting-fx\">Lighting & Effects</button>\n      </div>\n      <div id=\"sets-props\" class=\"tab-panel active\">\n        <h3>Sets & Props</h3>\n        <ul>\n          <li>Scenic flats, backdrops, and false walls</li>\n          <li>Lightweight prop replicas and hero props</li>\n          <li>Faux glass and breakaway panels for stunts</li>\n          <li>Architectural columns, moldings, and period details</li>\n          <li>Vacuum-formed terrain, vehicles, and furniture</li>\n          <li>CNC-routed dimensional logos and set dressing</li>\n        </ul>\n      </div>\n      <div id=\"lighting-fx\" class=\"tab-panel\">\n        <h3>Lighting & Effects</h3>\n        <ul>\n          <li>Light diffusion panels and custom gel frames</li>\n          <li>LED-backlit translucent walls and signage</li>\n          <li>Mirror and reflective surfaces for special effects</li>\n          <li>Colored transparent sheets for mood lighting</li>\n          <li>Projection screens and rear-projection surfaces</li>\n          <li>Protective shields and blast screens for pyrotechnics</li>\n        </ul>\n      </div>\n    </div>\n  </div>\n</section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "f6a7b8c",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "a7b8c9d",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<style>\n.materials{background:#fff;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.materials .section-header{text-align:center;padding:56px 40px 36px}\n.materials .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.materials .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.materials .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.materials .mat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid #E2E8F0}\n.materials .mat-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:40px 24px;border-bottom:1px solid #E2E8F0;border-right:1px solid #E2E8F0;transition:background .25s}\n.materials .mat-card:nth-child(4n){border-right:none}\n.materials .mat-card:hover{background:#F7F8FA}\n.materials .mat-icon{width:48px;height:48px;margin-bottom:18px;display:flex;align-items:center;justify-content:center}\n.materials .mat-icon svg{width:36px;height:36px;stroke:#1B365D;stroke-width:1.5;fill:none}\n.materials .mat-name{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px}\n.materials .mat-desc{font-family:'Lora',serif;font-size:.88rem;color:#64748B;line-height:1.6}\n@media(max-width:1024px){.materials .mat-grid{grid-template-columns:repeat(2,1fr)}.materials .mat-card:nth-child(4n){border-right:1px solid #E2E8F0}.materials .mat-card:nth-child(2n){border-right:none}}\n@media(max-width:600px){.materials .mat-grid{grid-template-columns:1fr}.materials .mat-card{border-right:none}}\n</style>\n<section class=\"materials\" id=\"materials\">\n  <div class=\"section-header\">\n    <h2>Materials</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Production-grade plastics chosen for workability, safety, and visual impact.</p>\n  </div>\n  <div class=\"mat-grid\">\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"4\" y=\"4\" width=\"28\" height=\"28\" rx=\"2\"/><line x1=\"4\" y1=\"18\" x2=\"32\" y2=\"18\"/><line x1=\"18\" y1=\"4\" x2=\"18\" y2=\"32\"/></svg></div>\n      <div class=\"mat-name\">Acrylic (PMMA)</div>\n      <div class=\"mat-desc\">Crystal-clear sheets for faux glass, display cases, and LED-backlit panels.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><circle cx=\"18\" cy=\"18\" r=\"13\"/><path d=\"M18 5v26M5 18h26\"/></svg></div>\n      <div class=\"mat-name\">Polycarbonate (PC)</div>\n      <div class=\"mat-desc\">Impact-resistant sheets for breakaway windows, shields, and stunt-safe panels.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><polygon points=\"18,3 33,28 3,28\"/><line x1=\"18\" y1=\"12\" x2=\"18\" y2=\"21\"/><circle cx=\"18\" cy=\"24\" r=\"1\"/></svg></div>\n      <div class=\"mat-name\">ABS</div>\n      <div class=\"mat-desc\">Tough, paintable sheets ideal for vacuum-formed props, helmets, and armor.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"6\" y=\"14\" width=\"24\" height=\"10\" rx=\"2\"/><path d=\"M12 14V8a6 6 0 0 1 12 0v6\"/></svg></div>\n      <div class=\"mat-name\">Expanded PVC (Foam Board)</div>\n      <div class=\"mat-desc\">Ultra-light rigid sheets for scenic flats, set walls, and dimensional signage.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><path d=\"M6 28 Q18 4 30 28\" fill=\"none\"/><line x1=\"10\" y1=\"20\" x2=\"26\" y2=\"20\"/></svg></div>\n      <div class=\"mat-name\">Polystyrene (PS)</div>\n      <div class=\"mat-desc\">Economical sheets for quick-build flats, light diffusers, and disposable props.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><ellipse cx=\"18\" cy=\"18\" rx=\"14\" ry=\"8\"/><line x1=\"18\" y1=\"10\" x2=\"18\" y2=\"26\"/></svg></div>\n      <div class=\"mat-name\">HDPE</div>\n      <div class=\"mat-desc\">Chemical-resistant, durable sheets for outdoor sets, ramps, and work surfaces.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><path d=\"M8 28V8h8l4 8-4 8h8\" fill=\"none\"/></svg></div>\n      <div class=\"mat-name\">PETG</div>\n      <div class=\"mat-desc\">Thermoformable, shatter-resistant sheets for face shields, visors, and clear props.</div>\n    </div>\n    <div class=\"mat-card\">\n      <div class=\"mat-icon\"><svg viewBox=\"0 0 36 36\"><rect x=\"4\" y=\"4\" width=\"28\" height=\"28\" rx=\"6\"/><circle cx=\"18\" cy=\"18\" r=\"6\"/></svg></div>\n      <div class=\"mat-name\">PVC (Rigid)</div>\n      <div class=\"mat-desc\">Weather-resistant sheets for outdoor stages, rain covers, and protective barriers.</div>\n    </div>\n  </div>\n</section>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "b8c9d0e",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "c9d0e1f",
+          "elType": "widget",
+          "widgetType": "html",
+          "settings": {
+            "html": "<style>\n.advantages{background:#F7F8FA;padding:0;margin:0;font-family:'Montserrat',sans-serif}\n.advantages .section-header{text-align:center;padding:56px 40px 36px}\n.advantages .section-header h2{font-family:'Montserrat',sans-serif;font-size:1.55rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:2.5px;margin:0 0 10px}\n.advantages .section-header .accent-bar{width:48px;height:3px;background:#1B365D;margin:0 auto 16px;border-radius:2px}\n.advantages .section-header p{font-family:'Lora',serif;font-size:1.05rem;color:#4A5568;max-width:540px;margin:0 auto;line-height:1.7}\n.advantages .adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;padding:0 48px 64px;max-width:1120px;margin:0 auto}\n.advantages .adv-card{background:#fff;border-radius:6px;padding:36px 30px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.06);transition:transform .25s,box-shadow .25s}\n.advantages .adv-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.1)}\n.advantages .adv-icon{width:52px;height:52px;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;background:#EEF2F7;border-radius:50%}\n.advantages .adv-icon svg{width:26px;height:26px;stroke:#1B365D;stroke-width:1.5;fill:none}\n.advantages .adv-title{font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;color:#1B365D;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px}\n.advantages .adv-desc{font-family:'Lora',serif;font-size:.92rem;color:#64748B;line-height:1.65}\n@media(max-width:768px){.advantages .adv-grid{grid-template-columns:1fr;padding:0 24px 48px}}\n</style>\n<section class=\"advantages\" id=\"advantages\">\n  <div class=\"section-header\">\n    <h2>Why Plastic-Craft</h2>\n    <div class=\"accent-bar\"></div>\n    <p>Built for the pace and precision the entertainment industry demands.</p>\n  </div>\n  <div class=\"adv-grid\">\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><circle cx=\"13\" cy=\"13\" r=\"10\"/><path d=\"M13 7v6l4 3\"/></svg></div>\n      <div class=\"adv-title\">Fast Turnaround</div>\n      <div class=\"adv-desc\">Rush orders and same-day cutting keep your production on schedule when deadlines are tight.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><rect x=\"3\" y=\"3\" width=\"20\" height=\"20\" rx=\"2\"/><path d=\"M3 13h20\"/></svg></div>\n      <div class=\"adv-title\">Custom Cut-to-Size</div>\n      <div class=\"adv-desc\">Sheets, rods, and tubes cut to your exact dimensions\u2014no waste, no delays on set.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M13 3l3 7h7l-5.5 4.5 2 7L13 17l-6.5 4.5 2-7L3 10h7z\"/></svg></div>\n      <div class=\"adv-title\">Optical Clarity</div>\n      <div class=\"adv-desc\">Crystal-clear acrylic and polycarbonate for camera-ready surfaces and on-screen realism.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M4 20V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14\"/><path d=\"M4 20h18\"/><circle cx=\"9\" cy=\"12\" r=\"3\"/></svg></div>\n      <div class=\"adv-title\">Lightweight & Durable</div>\n      <div class=\"adv-desc\">Easy to transport and rig on set while standing up to the demands of multi-day shoots.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M5 13a8 8 0 0 1 16 0\"/><circle cx=\"13\" cy=\"13\" r=\"3\"/><line x1=\"13\" y1=\"16\" x2=\"13\" y2=\"23\"/></svg></div>\n      <div class=\"adv-title\">Design Flexibility</div>\n      <div class=\"adv-desc\">Thermoformable, CNC-machinable, and paintable materials for any creative vision.</div>\n    </div>\n    <div class=\"adv-card\">\n      <div class=\"adv-icon\"><svg viewBox=\"0 0 26 26\"><path d=\"M12 3v4M4.93 6.93l2.83 2.83M3 14h4M4.93 21.07l2.83-2.83M12 25v-4M19.07 21.07l-2.83-2.83M21 14h4M19.07 6.93l-2.83 2.83\"/></svg></div>\n      <div class=\"adv-title\">Safety Rated</div>\n      <div class=\"adv-desc\">Breakaway-safe, fire-retardant, and UV-stable options for stunts, pyro, and outdoor stages.</div>\n    </div>\n  </div>\n</section>\n<script>\ndocument.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.tab-btn').forEach(function(btn){btn.addEventListener('click',function(){var t=this.getAttribute('data-tab');this.closest('.app-content').querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active')});this.classList.add('active');this.closest('.app-content').querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active')});document.getElementById(t).classList.add('active')})})});\n</script>"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "d0e1f2a",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 600 },
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#F5F6F8",
+        "padding": { "unit": "px", "top": "64", "right": "40", "bottom": "64", "left": "40", "isLinked": false },
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+        "border_color": "#E2E8F0"
+      },
+      "elements": [
+        {
+          "id": "e1f2a3b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ready to Get Started?",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#1B365D",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": { "unit": "rem", "size": 1.6 },
+            "typography_font_weight": "700",
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": { "unit": "px", "size": 2 }
+          },
+          "elements": []
+        },
+        {
+          "id": "f2a3b4c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-family: 'Lora', serif; font-size: 1.05rem; line-height: 1.8; color: #4A5568; text-align: center;\">From scenic flats to camera-ready props, get the exact materials your production needs\u2014cut to size and delivered on your timeline.</p>",
+            "align": "center"
+          },
+          "elements": []
+        },
+        {
+          "id": "a3b4c5d",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "GET A QUOTE",
+            "link": { "url": "/request-a-quote/", "is_external": false, "nofollow": false },
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": { "unit": "rem", "size": 0.8 },
+            "typography_font_weight": "700",
+            "typography_letter_spacing": { "unit": "px", "size": 2 },
+            "typography_text_transform": "uppercase",
+            "background_color": "#1B365D",
+            "button_text_color": "#FFFFFF",
+            "border_radius": { "unit": "px", "top": "3", "right": "3", "bottom": "3", "left": "3", "isLinked": true },
+            "button_padding": { "unit": "px", "top": "16", "right": "36", "bottom": "16", "left": "36", "isLinked": false },
+            "hover_color": "#FFFFFF",
+            "button_background_hover_color": "#2A4A7A"
+          },
+          "elements": []
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": { "template": "elementor_header_footer" },
+  "version": "0.4",
+  "title": "Stage, Film & TV Production",
+  "type": "page"
+}
